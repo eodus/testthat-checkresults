@@ -1,0 +1,58 @@
+* installing *source* package 'data.table' ...
+** package 'data.table' successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c assign.c -o assign.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c countingcharacter.c -o countingcharacter.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c dogroups.c -o dogroups.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c duplist.c -o duplist.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c fastmean.c -o fastmean.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c fread.c -o fread.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c init.c -o init.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rbindlist.c -o rbindlist.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c reorder.c -o reorder.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c sortedmatch.c -o sortedmatch.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c vecseq.c -o vecseq.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c wrappers.c -o wrappers.o
+ccache gcc -shared -L/usr/local/lib -o data.table.so assign.o countingcharacter.o dogroups.o duplist.o fastmean.o fread.o init.o rbindlist.o reorder.o sortedmatch.o vecseq.o wrappers.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+mv data.table.so datatable.so
+installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/data.table.Rcheck/data.table/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'datatable-faq.Rnw' 
+   'datatable-intro.Rnw' 
+   'datatable-timings.Rnw' 
+** testing if installed package can be loaded
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/MASS/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/lattice/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/Matrix/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/nlme/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/survival/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/boot/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/cluster/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/foreign/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/KernSmooth/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/rpart/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/class/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/nnet/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/spatial/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/RtmpEF0bl0/RLIBS_934368c624d/mgcv/DESCRIPTION: No such file or directory
+* DONE (data.table)

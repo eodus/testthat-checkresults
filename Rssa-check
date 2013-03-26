@@ -1,0 +1,19 @@
+* using log directory '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/Rssa.Rcheck'
+* using R version 3.0.0 beta (2013-03-24 r62396)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'Rssa/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'Rssa' version '0.9.9'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'Rssa' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/Rssa.Rcheck/00install.out' for details.

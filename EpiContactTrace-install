@@ -1,0 +1,44 @@
+* installing *source* package 'EpiContactTrace' ...
+** package 'EpiContactTrace' successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c trace.cpp -o trace.o
+ccache g++ -shared -L/usr/local/lib -o EpiContactTrace.so trace.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/EpiContactTrace.Rcheck/EpiContactTrace/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'plot' from package 'graphics' in package 'EpiContactTrace'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/MASS/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/lattice/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/Matrix/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/nlme/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/survival/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/boot/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/cluster/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/foreign/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/KernSmooth/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/rpart/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/class/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/nnet/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/spatial/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/RtmpZHJpav/RLIBS_8dd5731163a/mgcv/DESCRIPTION: No such file or directory
+* DONE (EpiContactTrace)

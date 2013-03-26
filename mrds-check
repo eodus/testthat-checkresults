@@ -1,0 +1,13 @@
+* using log directory '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/mrds.Rcheck'
+* using R version 3.0.0 beta (2013-03-24 r62396)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'mrds/DESCRIPTION' ... OK
+* this is package 'mrds' version '2.1.0'
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: 'mgcv'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

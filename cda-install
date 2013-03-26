@@ -1,0 +1,89 @@
+* installing *source* package 'cda' ...
+** package 'cda' successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c array.cpp -o array.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c cd.cpp -o cd.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c cda.cpp -o cda.o
+cda.cpp: In function 'arma::mat dispersion(const mat&, const cx_mat&, const cx_mat&, double, const vec&, const uvec&, const mat&, int, int)':
+cda.cpp:123:18: warning: unused variable 'pi' [-Wunused-variable]
+cda.cpp:142:12: warning: unused variable 'phi' [-Wunused-variable]
+cda.cpp:142:17: warning: unused variable 'psi' [-Wunused-variable]
+cda.cpp:142:21: warning: unused variable 'theta' [-Wunused-variable]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c internals.cpp -o internals.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c linear.cpp -o linear.o
+linear.cpp:77:8: warning: multi-line comment [-Wcomment]
+linear.cpp:79:8: warning: multi-line comment [-Wcomment]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c utils.cpp -o utils.o
+utils.cpp: In function 'arma::mat axis_rotation(double, int)':
+utils.cpp:59:18: warning: unused variable 'pi' [-Wunused-variable]
+ccache gfortran   -fpic  -g -O2  -c zgels.f -o zgels.o
+ccache g++ -shared -L/usr/local/lib -o cda.so array.o cd.o cda.o internals.o linear.o utils.o zgels.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/cda.Rcheck/cda/libs
+** R
+** data
+** demo
+** inst
+** preparing package for lazy loading
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/MASS/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/lattice/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/Matrix/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/nlme/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/survival/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/boot/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/cluster/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/foreign/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/KernSmooth/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/rpart/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/class/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/nnet/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/spatial/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_9246f121538/mgcv/DESCRIPTION: No such file or directory
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'CD-theory.Rnw' 
+** testing if installed package can be loaded
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/MASS/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/lattice/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/Matrix/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/nlme/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/survival/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/boot/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/cluster/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/foreign/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/KernSmooth/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/rpart/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/class/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/nnet/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/spatial/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/RtmpOQSJ4T/RLIBS_924756af358/mgcv/DESCRIPTION: No such file or directory
+* DONE (cda)

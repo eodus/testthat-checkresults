@@ -1,0 +1,12 @@
+SixSigma *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+*  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [20s/20s] OK
+Examples with CPU or elapsed time > 5s
+                  user system elapsed
+SixSigma-package 7.596   0.04   7.635

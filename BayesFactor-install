@@ -1,0 +1,67 @@
+* installing *source* package 'BayesFactor' ...
+** package 'BayesFactor' successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c common.c -o common.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c debug.c -o debug.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c linearReg.c -o linearReg.o
+linearReg.c: In function 'GibbsLinearReg':
+linearReg.c:42:43: warning: unused variable 'bTemp' [-Wunused-variable]
+linearReg.c:39:14: warning: unused variable 'k' [-Wunused-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c logMean.c -o logMean.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c matrix.c -o matrix.o
+matrix.c: In function 'quadform':
+matrix.c:40:27: warning: unused variable 'j' [-Wunused-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c nWayAOV.c -o nWayAOV.o
+nWayAOV.c: In function 'jeffSamplerNwayAov':
+nWayAOV.c:66:31: warning: unused variable 'W' [-Wunused-variable]
+nWayAOV.c: In function 'RGibbsNwayAov':
+nWayAOV.c:273:13: warning: unused variable 'b' [-Wunused-variable]
+nWayAOV.c:273:10: warning: unused variable 'a' [-Wunused-variable]
+nWayAOV.c: In function 'GibbsNwayAov':
+nWayAOV.c:308:10: warning: unused variable 'g1' [-Wunused-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c oneWayAOV.c -o oneWayAOV.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c ttest.c -o ttest.o
+ccache gcc -shared -L/usr/local/lib -o BayesFactor.so common.o debug.o linearReg.o logMean.o matrix.o nWayAOV.o oneWayAOV.o ttest.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/BayesFactor.Rcheck/BayesFactor/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'summary' from package 'base' in package 'BayesFactor'
+Creating a generic function for 't' from package 'base' in package 'BayesFactor'
+Creating a generic function for 'which.max' from package 'base' in package 'BayesFactor'
+Creating a generic function for 'which.min' from package 'base' in package 'BayesFactor'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/MASS/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/lattice/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/Matrix/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/nlme/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/survival/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/boot/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/cluster/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/foreign/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/KernSmooth/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/rpart/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/class/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/nnet/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/spatial/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/RtmpMwl2N1/RLIBS_93e2326d10d/mgcv/DESCRIPTION: No such file or directory
+* DONE (BayesFactor)

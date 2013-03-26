@@ -1,0 +1,71 @@
+* installing *source* package 'hyperSpec' ...
+** package 'hyperSpec' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'svUnit'
+Creating a generic function for 'aggregate' from package 'stats' in package 'hyperSpec'
+Creating a generic function for 'all.equal' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'apply' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'rownames' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'rownames<-' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'colnames' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'colnames<-' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'ncol' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'nrow' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'labels' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'levelplot' from package 'lattice' in package 'hyperSpec'
+Creating a generic function for 'mean' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'quantile' from package 'stats' in package 'hyperSpec'
+Creating a generic function for 'merge' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'sample' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'print' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'summary' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'split' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'sweep' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'cov' from package 'stats' in package 'hyperSpec'
+Creating a generic function for 'subset' from package 'base' in package 'hyperSpec'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'baseline.Rnw' 
+   'chondro.Rnw' 
+   'fileio.Rnw' 
+   'flu.Rnw' 
+   'introduction.Rnw' 
+   'laser.Rnw' using 'UTF-8' 
+   'plotting.Rnw' using 'UTF-8' 
+** testing if installed package can be loaded
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/MASS/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/lattice/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/Matrix/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/nlme/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/survival/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/boot/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/cluster/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/foreign/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/KernSmooth/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/rpart/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/class/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/nnet/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/spatial/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/Rtmpxj2eyb/RLIBS_203ead2f16f/mgcv/DESCRIPTION: No such file or directory
+* DONE (hyperSpec)

@@ -1,0 +1,71 @@
+* using log directory '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/fanovaGraph.Rcheck'
+* using R version 3.0.0 beta (2013-03-24 r62396)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'fanovaGraph/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'fanovaGraph' version '1.4'
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Package suggested but not available for checking: 'manipulate'
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'fanovaGraph' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking for unstated dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+Found the following possibly unsafe calls:
+File 'fanovaGraph/R/modify.igraph.R':
+  unlockBinding(sym = ".igraph.shapes", env = asNamespace("igraph0"))
+  unlockBinding(sym = "i.default.values", env = asNamespace("igraph0"))
+
+plotManipulate: no visible global function definition for 'manipulate'
+plotManipulate: no visible binding for global variable 'delta'
+plotManipulate: no visible global function definition for 'slider'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... [40s/40s] OK
+Examples with CPU or elapsed time > 5s
+                  user system elapsed
+predictAdditive 16.001   0.00    16.0
+kmAdditive      15.881   0.02    15.9
+* checking for unstated dependencies in tests ... OK
+* checking tests ... [34s/34s] OK
+  Running 'run-all.R' [33s/33s]
+WARNING: There was 1 warning.
+NOTE: There were 2 notes.
+See
+  '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/fanovaGraph.Rcheck/00check.log'
+for details.

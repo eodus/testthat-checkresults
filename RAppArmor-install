@@ -1,0 +1,5 @@
+* installing *source* package 'RAppArmor' ...
+** package 'RAppArmor' successfully unpacked and MD5 sums checked
+libapparmor.so not found. Make sure libapparmor-dev is installed.
+ERROR: configuration failed for package 'RAppArmor'
+* removing '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/RAppArmor.Rcheck/RAppArmor'

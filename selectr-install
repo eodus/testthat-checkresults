@@ -1,0 +1,53 @@
+* installing *source* package 'selectr' ...
+** package 'selectr' successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+code for methods in class "Selector" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "Class" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "Function" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "Pseudo" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "Negation" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "Attrib" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "Element" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "Hash" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "CombinedSelector" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "Token" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "EOFToken" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "TokenStream" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "XPathExpr" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "GenericTranslator" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+code for methods in class "HTMLTranslator" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/MASS/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/lattice/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/Matrix/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/nlme/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/survival/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/boot/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/cluster/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/foreign/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/KernSmooth/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/rpart/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/class/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/nnet/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/spatial/DESCRIPTION: No such file or directory
+Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
+  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/Rtmp0leKia/RLIBS_68fe4b78c704/mgcv/DESCRIPTION: No such file or directory
+* DONE (selectr)

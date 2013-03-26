@@ -1,0 +1,967 @@
+argparse ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+bagRboostR ============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+BatchExperiments ======================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+BatchJobs =============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+*  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [24s/26s] OK 
+
+
+BayesFactor ============================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+BBmisc ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+bmp ===================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+cda ===================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+CHNOSZ ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+cocor =================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+*  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+cocron ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+*  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+DataFrameConstr ========================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+data.table ============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+dendroextras ============================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+devtools ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+df2json ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+DiceKriging ============================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+Distance ================================================================ 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'mrds'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+dostats ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+downloader ============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+emdbook ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+EpiContactTrace ========================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+evaluate ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+fail ==================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+fanovaGraph ============================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+ffbase ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+flsa ==================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+formula.tools =========================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+futile.any ============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+futile.logger =========================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+FuzzyNumbers ============================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+gemtc =================================================================== 
+ *  checking whether package 'gemtc' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/gemtc.Rcheck/00install.out' for details. 
+
+
+getopt ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+ggplot2 ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+gppois ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+growcurves ============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+gtable ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+harvestr ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+*  checking tests ... ERROR
+Running the tests in 'tests/testthat-package.R' failed.
+Last 13 lines of output:
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > library(harvestr)
+  > test_package("harvestr")
+  Caching : ........
+  main functions : ............
+  Error in library(lme4) : there is no package called 'lme4'
+  Calls: test_package ... lapply -> FUN -> sys.source -> eval -> eval -> library
+  Execution halted 
+
+
+hash ==================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+httr ==================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+hyperSpec =============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+IgorR =================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+ISOweek ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+Jmisc =================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+Kmisc =================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+knitcitations =========================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+knitr =================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+koRpus ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+*  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+LaF ===================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+LinearizedSVR =========================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+lint ==================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+log4r =================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+lubridate =============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+MALDIquantForeign ======================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+MALDIquant ============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+mapReduce =============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+mchof =================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+mets ==================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+mosaic ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+mrds ==================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'mgcv'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+multilevelPSA =========================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+multitable ============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+NlsyLinks =============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+operator.tools ========================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+opm ===================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+optmatch ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+optparse ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+ParamHelpers ============================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+permute ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+pkgmaker ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+plumbr ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+plyr ==================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+popgraph ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+productplots ============================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+ProjectTemplate ========================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+quadrupen =============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+questionr =============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+*  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+WARNING: There were 2 warnings.
+See
+  '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/questionr.Rcheck/00check.log'
+for details. 
+
+
+RAppArmor =============================================================== 
+ *  checking whether package 'RAppArmor' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/RAppArmor.Rcheck/00install.out' for details. 
+
+
+rbundler ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+RcppEigen =============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+readbitmap ============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+ReliabilityTheory ======================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+reshape2 ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+rgeos =================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+ropensnp ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+roxygen2 ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+roxygen ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+rpf ===================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+rspa ==================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+rspear ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+Rssa ==================================================================== 
+ *  checking whether package 'Rssa' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/Rssa.Rcheck/00install.out' for details. 
+
+
+scales ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+selectr ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+*  checking examples ... ERROR
+Running examples in 'selectr-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: css_to_xpath
+> ### Title: Translate a CSS selector to an equivalent XPath expression.
+> ### Aliases: css_to_xpath
+> 
+> ### ** Examples
+> 
+>   css_to_xpath(".testclass")
+Error in do.call(method, list(parsed_selector)) : 
+  could not find function "xpath_class"
+Calls: css_to_xpath ... lapply -> FUN -> selector_to_xpath -> <Anonymous> -> do.call
+Execution halted 
+
+
+shiny =================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+sinartra ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+SixSigma ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+*  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [20s/20s] OK
+Examples with CPU or elapsed time > 5s
+                  user system elapsed
+SixSigma-package 7.596   0.04   7.635 
+
+
+smcUtils ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+SortableHTMLTables ====================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+SparseGrid ============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+spatialprobit =========================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'spdep'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+stringdist ============================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+stringr ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+tabplot ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+taxize ================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'ape'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+TextRegression ========================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+TimeProjection ========================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+tourr =================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+traitr ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+transmission ============================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+transnet ================================================================ 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
+treebase ================================================================ 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'ape'
+
+Package suggested but not available for checking: 'TreePar'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+XiMpLe ================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted
+*  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+yaml ==================================================================== 
+ *  checking Rd cross-references ... WARNING
+Error in find.package(package, lib.loc) : 
+  there is no package called 'nlme'
+Calls: <Anonymous> -> lapply -> FUN -> find.package
+Execution halted 
+
+
