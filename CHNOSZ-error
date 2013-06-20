@@ -1,5 +1,16 @@
-CHNOSZ *  checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+CHNOSZ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  
+  2. Error: minimal usage of mod.obigt() creates usable data entries -------------
+  'test' is not a simple chemical formula
+  1: expect_warning(mod.obigt("test", date = today()), "please supply a valid chemical formula") at test-thermo.R:29
+  2: expect_that(object, gives_warning(regexp, ...), info = info, label = label) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:455
+  3: condition(object) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expect-that.r:43
+  4: evaluate_promise(expr) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:434
+  5: with_sink(temp, withCallingHandlers(code, warning = wHandler, message = mHandler)) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/evaluate-promise.r:39
+  6: withCallingHandlers(code, warning = wHandler, message = mHandler) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/evaluate-promise.r:57
+  7: mod.obigt("test", date = today())
+  
+  Error: Test failures
+  Execution halted

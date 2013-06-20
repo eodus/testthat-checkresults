@@ -1,13 +1,8 @@
-questionr *  checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
-*  checking examples ... WARNING
+questionr *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
  OK
-WARNING: There were 2 warnings.
+WARNING: There was 1 warning.
 See
-  '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/questionr.Rcheck/00check.log'
+  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/questionr.Rcheck/00check.log'
 for details.

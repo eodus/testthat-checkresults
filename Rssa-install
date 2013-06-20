@@ -1,15 +1,15 @@
 * installing *source* package 'Rssa' ...
 ** package 'Rssa' successfully unpacked and MD5 sums checked
-checking for gcc... ccache gcc
+checking for gcc... gcc -std=gnu99
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
 checking for suffix of executables... 
 checking whether we are cross compiling... no
 checking for suffix of object files... o
 checking whether we are using the GNU C compiler... yes
-checking whether ccache gcc accepts -g... yes
-checking for ccache gcc option to accept ISO C89... none needed
-checking how to run the C preprocessor... ccache gcc -E
+checking whether gcc -std=gnu99 accepts -g... yes
+checking for gcc -std=gnu99 option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -std=gnu99 -E
 checking for grep that handles long lines and -e... /bin/grep
 checking for egrep... /bin/grep -E
 checking for ANSI C header files... yes
@@ -31,20 +31,18 @@ config.status: creating src/Makevars
 config.status: creating R/init.R
 config.status: creating src/config.h
 ** libs
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -I. -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c extmat.c -o extmat.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -I. -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c hankel.c -o hankel.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c extmat.c -o extmat.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c hankel.c -o hankel.o
 hankel.c: In function 'initialize_circulant':
 hankel.c:319:3: warning: implicit declaration of function 'fft_factor' [-Wimplicit-function-declaration]
 hankel.c:335:3: warning: implicit declaration of function 'fft_work' [-Wimplicit-function-declaration]
-hankel.c: In function 'hankelize':
-hankel.c:563:33: warning: variable 'rightv' set but not used [-Wunused-but-set-variable]
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -I. -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c hbhankel.c -o hbhankel.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -I. -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c toeplitz.c -o toeplitz.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c hbhankel.c -o hbhankel.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c toeplitz.c -o toeplitz.o
 toeplitz.c: In function 'initialize_circulant':
 toeplitz.c:227:3: warning: implicit declaration of function 'fft_factor' [-Wimplicit-function-declaration]
 toeplitz.c:242:3: warning: implicit declaration of function 'fft_work' [-Wimplicit-function-declaration]
-ccache gcc -shared -L/usr/local/lib -o Rssa.so extmat.o hankel.o hbhankel.o toeplitz.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/Rssa.Rcheck/Rssa/libs
+gcc -std=gnu99 -shared -o Rssa.so extmat.o hankel.o hbhankel.o toeplitz.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/Rssa.Rcheck/Rssa/libs
 ** R
 ** data
 ** inst
@@ -53,38 +51,10 @@ installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/Rssa.Rcheck/Rssa/libs
 *** installing help indices
 ** building package indices
 ** testing if installed package can be loaded
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/MASS/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/lattice/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/Matrix/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/nlme/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/survival/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/boot/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/cluster/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/foreign/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/KernSmooth/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/rpart/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/class/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/nnet/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/spatial/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/Rtmpqc1Vek/RLIBS_612157f9706/mgcv/DESCRIPTION: No such file or directory
 Error in dyn.load(file, DLLpath = DLLpath, ...) : 
-  unable to load shared object '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/Rssa.Rcheck/Rssa/libs/Rssa.so':
-  /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/Rssa.Rcheck/Rssa/libs/Rssa.so: undefined symbol: fft_factor
+  unable to load shared object '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/Rssa.Rcheck/Rssa/libs/Rssa.so':
+  /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/Rssa.Rcheck/Rssa/libs/Rssa.so: undefined symbol: fft_factor
 Error: loading failed
 Execution halted
 ERROR: loading failed
-* removing '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/Rssa.Rcheck/Rssa'
+* removing '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/Rssa.Rcheck/Rssa'

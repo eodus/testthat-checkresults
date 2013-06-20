@@ -1,23 +1,25 @@
 * installing *source* package 'rgeos' ...
 ** package 'rgeos' successfully unpacked and MD5 sums checked
-configure: rgeos: 0.2-10
-./configure: line 1329: svnversion: command not found
+configure: CC: gcc -std=gnu99
+configure: CXX: g++
+configure: rgeos: 0.2-17
+./configure: line 1336: svnversion: command not found
 configure: svn revision: 
 checking geos-config usability... yes
 configure: geos-config: geos-config
 configure: GEOS version: 3.2.2
-checking geos version over 3.2.1... yes
+checking geos version at least 3.2.0... yes
 checking geos-config clibs... no
-checking for gcc... ccache gcc
+checking for gcc... gcc -std=gnu99
 checking for C compiler default output file name... a.out
 checking whether the C compiler works... yes
 checking whether we are cross compiling... no
 checking for suffix of executables... 
 checking for suffix of object files... o
 checking whether we are using the GNU C compiler... yes
-checking whether ccache gcc accepts -g... yes
-checking for ccache gcc option to accept ANSI C... none needed
-checking how to run the C preprocessor... ccache gcc -E
+checking whether gcc -std=gnu99 accepts -g... yes
+checking for gcc -std=gnu99 option to accept ANSI C... none needed
+checking how to run the C preprocessor... gcc -std=gnu99 -E
 checking for egrep... grep -E
 checking for ANSI C header files... yes
 checking for sys/types.h... yes
@@ -32,93 +34,37 @@ checking for unistd.h... yes
 checking geos_c.h usability... yes
 checking geos_c.h presence... yes
 checking for geos_c.h... yes
-checking for initGEOS_r in -lgeos_c... yes
+checking geos: linking with libgeos_c... yes
 configure: PKG_CPPFLAGS:  -I/usr/include
 configure: PKG_LIBS:  -L/usr/lib -lgeos -lgeos_c
 configure: creating ./config.status
 config.status: creating src/Makevars
 ** libs
-ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c dummy.cc -o dummy.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c init.c -o init.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c local_stubs.c -o local_stubs.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos.c -o rgeos.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_R2geos.c -o rgeos_R2geos.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_R2geosMP.c -o rgeos_R2geosMP.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_bbox.c -o rgeos_bbox.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_buffer.c -o rgeos_buffer.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_coord.c -o rgeos_coord.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_geos2R.c -o rgeos_geos2R.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_misc.c -o rgeos_misc.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_poly2nb.c -o rgeos_poly2nb.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_predicate_binary.c -o rgeos_predicate_binary.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_predicate_unary.c -o rgeos_predicate_unary.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_topology.c -o rgeos_topology.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_topology_binary.c -o rgeos_topology_binary.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_validate.c -o rgeos_validate.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_wkt.c -o rgeos_wkt.o
-ccache g++ -shared -L/usr/local/lib -o rgeos.so dummy.o init.o local_stubs.o rgeos.o rgeos_R2geos.o rgeos_R2geosMP.o rgeos_bbox.o rgeos_buffer.o rgeos_coord.o rgeos_geos2R.o rgeos_misc.o rgeos_poly2nb.o rgeos_predicate_binary.o rgeos_predicate_unary.o rgeos_topology.o rgeos_topology_binary.o rgeos_validate.o rgeos_wkt.o -L/usr/lib -lgeos -lgeos_c -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/rgeos.Rcheck/rgeos/libs
+g++ -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c dummy.cc -o dummy.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c local_stubs.c -o local_stubs.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos.c -o rgeos.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_R2geos.c -o rgeos_R2geos.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_R2geosMP.c -o rgeos_R2geosMP.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_bbox.c -o rgeos_bbox.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_buffer.c -o rgeos_buffer.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_coord.c -o rgeos_coord.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_geos2R.c -o rgeos_geos2R.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_misc.c -o rgeos_misc.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_poly2nb.c -o rgeos_poly2nb.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_predicate_binary.c -o rgeos_predicate_binary.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_predicate_unary.c -o rgeos_predicate_unary.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_topology.c -o rgeos_topology.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_topology_binary.c -o rgeos_topology_binary.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_validate.c -o rgeos_validate.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_wkt.c -o rgeos_wkt.o
+g++ -shared -o rgeos.so dummy.o init.o local_stubs.o rgeos.o rgeos_R2geos.o rgeos_R2geosMP.o rgeos_bbox.o rgeos_buffer.o rgeos_coord.o rgeos_geos2R.o rgeos_misc.o rgeos_poly2nb.o rgeos_predicate_binary.o rgeos_predicate_unary.o rgeos_topology.o rgeos_topology_binary.o rgeos_validate.o rgeos_wkt.o -L/usr/lib -lgeos -lgeos_c -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/rgeos.Rcheck/rgeos/libs
 ** R
 ** inst
 ** preparing package for lazy loading
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/MASS/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/lattice/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/Matrix/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/nlme/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/survival/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/boot/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/cluster/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/foreign/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/KernSmooth/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/rpart/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/class/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/nnet/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/spatial/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_558212d8a323/mgcv/DESCRIPTION: No such file or directory
 ** help
 *** installing help indices
 ** building package indices
 ** testing if installed package can be loaded
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/MASS/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/lattice/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/Matrix/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/nlme/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/survival/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/boot/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/cluster/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/foreign/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/KernSmooth/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/rpart/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/class/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/nnet/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/spatial/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/RtmpYXxSm8/RLIBS_5582269e22e6/mgcv/DESCRIPTION: No such file or directory
 * DONE (rgeos)

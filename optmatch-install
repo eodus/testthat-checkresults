@@ -1,9 +1,11 @@
 * installing *source* package 'optmatch' ...
 ** package 'optmatch' successfully unpacked and MD5 sums checked
 ** libs
-ccache gfortran   -fpic  -g -O2  -c relax4s.f -o relax4s.o
-ccache gcc -shared -L/usr/local/lib -o optmatch.so relax4s.o -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/optmatch.Rcheck/optmatch/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c mahalanobisHelper.c -o mahalanobisHelper.o
+gfortran   -fpic  -O3 -pipe  -g  -c relax4s.f -o relax4s.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c subsetInfSparseMatrix.c -o subsetInfSparseMatrix.o
+gcc -std=gnu99 -shared -o optmatch.so mahalanobisHelper.o relax4s.o subsetInfSparseMatrix.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/optmatch.Rcheck/optmatch/libs
 ** R
 ** data
 ** demo
@@ -13,34 +15,5 @@ in method for 'match_on' with signature '"bigglm"': no definition for class "big
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
 ** testing if installed package can be loaded
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/MASS/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/lattice/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/Matrix/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/nlme/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/survival/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/boot/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/cluster/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/foreign/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/KernSmooth/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/rpart/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/class/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/nnet/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/spatial/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/RtmpaA4kv8/RLIBS_3d8e2316f848/mgcv/DESCRIPTION: No such file or directory
 * DONE (optmatch)

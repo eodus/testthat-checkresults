@@ -3,64 +3,8 @@
 ** R
 ** inst
 ** preparing package for lazy loading
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/MASS/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/lattice/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/Matrix/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/nlme/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/survival/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/boot/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/cluster/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/foreign/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/KernSmooth/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/rpart/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/class/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/nnet/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/spatial/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc3e2a0d3c/mgcv/DESCRIPTION: No such file or directory
 ** help
 *** installing help indices
 ** building package indices
 ** testing if installed package can be loaded
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/MASS/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/lattice/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/Matrix/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/nlme/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/survival/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/boot/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/cluster/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/foreign/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/KernSmooth/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/rpart/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/class/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/nnet/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/spatial/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/Rtmpp1JrMl/RLIBS_1cc35c864ad1/mgcv/DESCRIPTION: No such file or directory
 * DONE (gtable)

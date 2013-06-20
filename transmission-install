@@ -1,13 +1,11 @@
 * installing *source* package 'transmission' ...
 ** package 'transmission' successfully unpacked and MD5 sums checked
 ** libs
-ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/Rcpp/include"  `/usr/local/lib/R-devel/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"` -fpic  -ggdb -pipe -Wall -pedantic  -c RcppInfection.cpp -o RcppInfection.o
-ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/Rcpp/include"  `/usr/local/lib/R-devel/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"` -fpic  -ggdb -pipe -Wall -pedantic  -c sim.cpp -o sim.o
-sim.cpp:171:2: warning: extra ';' [-pedantic]
-ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/Rcpp/include"  `/usr/local/lib/R-devel/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"` -fpic  -ggdb -pipe -Wall -pedantic  -c sim_ward.cpp -o sim_ward.o
-sim_ward.cpp:8:4: warning: extra ';' [-pedantic]
-ccache g++ -shared -L/usr/local/lib -o transmission.so RcppInfection.o sim.o sim_ward.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/transmission.Rcheck/transmission/libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"  `/usr/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"` -fpic  -O3 -pipe  -g  -c RcppInfection.cpp -o RcppInfection.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"  `/usr/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"` -fpic  -O3 -pipe  -g  -c sim.cpp -o sim.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"  `/usr/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"` -fpic  -O3 -pipe  -g  -c sim_ward.cpp -o sim_ward.o
+g++ -shared -o transmission.so RcppInfection.o sim.o sim_ward.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/transmission.Rcheck/transmission/libs
 ** R
 ** inst
 ** preparing package for lazy loading
@@ -15,36 +13,4 @@ installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/transmission.Rcheck/tra
 *** installing help indices
 ** building package indices
 ** testing if installed package can be loaded
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/MASS/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/lattice/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/lattice/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/Matrix/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/Matrix/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nlme/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/nlme/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/survival/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/survival/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/boot/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/boot/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/cluster/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/cluster/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/foreign/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/foreign/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/KernSmooth/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/KernSmooth/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/rpart/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/rpart/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/class/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/class/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/nnet/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/nnet/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/spatial/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/spatial/DESCRIPTION: No such file or directory
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/mgcv/DESCRIPTION to /tmp/RtmpqCKD6T/RLIBS_7b1c53ad6284/mgcv/DESCRIPTION: No such file or directory
-code for methods in class "Rcpp_cont.inf.model" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
-code for methods in class "Rcpp_cont.inf.model" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
-code for methods in class "Rcpp_sim2" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
-code for methods in class "Rcpp_sim2" was not checked for suspicious field assignments (recommended package 'codetools' not available?)
 * DONE (transmission)

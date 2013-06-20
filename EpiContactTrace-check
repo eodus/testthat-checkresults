@@ -1,6 +1,6 @@
-* using log directory '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/EpiContactTrace.Rcheck'
-* using R version 3.0.0 beta (2013-03-24 r62396)
-* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/EpiContactTrace.Rcheck'
+* using R version 3.0.1 (2013-05-16)
+* using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'EpiContactTrace/DESCRIPTION' ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'EpiContactTrace' can be installed ... [14s/14s] OK
+* checking whether package 'EpiContactTrace' can be installed ... [13s/13s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -40,11 +40,7 @@ File 'EpiContactTrace/R/report.r':
   assign(".ct_env", new.env(parent = globalenv()), envir = globalenv())
 * checking Rd files ... OK
 * checking Rd metadata ... OK
-* checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+* checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
@@ -58,12 +54,11 @@ Execution halted
 * checking for portable compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [43s/43s] OK
+* checking examples ... [25s/26s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'run-all.R'
-WARNING: There was 1 warning.
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/EpiContactTrace.Rcheck/00check.log'
+  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/EpiContactTrace.Rcheck/00check.log'
 for details.

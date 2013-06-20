@@ -1,7 +1,0 @@
-treebase *  checking package dependencies ... ERROR
-Package required but not available: 'ape'
-
-Package suggested but not available for checking: 'TreePar'
-
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.

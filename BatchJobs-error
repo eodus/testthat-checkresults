@@ -1,9 +1,0 @@
-BatchJobs *  checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
-*  checking examples ... WARNING
-checking a package with encoding  'UTF-8'  in an ASCII locale
-
- [24s/26s] OK

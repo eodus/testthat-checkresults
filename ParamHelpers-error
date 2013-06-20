@@ -1,5 +1,16 @@
-ParamHelpers *  checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+ParamHelpers *  checking tests ... ERROR
+Running the tests in 'tests/run-all.R' failed.
+Last 13 lines of output:
+  filterParams(ps, "logical") does not match 'Empty parameter set.'. Actual value: 
+  
+  8. Failure: filter empty paramset ----------------------------------------------
+  filterParams(ps, "function") does not match 'Empty parameter set.'. Actual value: 
+  
+  9. Failure: filter empty paramset ----------------------------------------------
+  filterParams(ps, "untyped") does not match 'Empty parameter set.'. Actual value: 
+  
+  a. Failure: filter mixed paramset ----------------------------------------------
+  filterParams(ps, "function") does not match 'Empty parameter set.'. Actual value: 
+  
+  Error: Test failures
+  Execution halted

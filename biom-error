@@ -1,0 +1,16 @@
+biom *  checking tests ... ERROR
+Running the tests in 'tests/testthat-biom.R' failed.
+Last 13 lines of output:
+  
+  > library("testthat")
+  > test_package("biom")
+  ........................12......................................................................................
+  
+  1. Failure: show method output tests -------------------------------------------
+  x1 does not match 'biom object. type:'. Actual value: 
+  
+  2. Failure: show method output tests -------------------------------------------
+  x4 does not match 'biom object. type:'. Actual value: 
+  
+  Error: Test failures
+  Execution halted

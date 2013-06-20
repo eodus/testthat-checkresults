@@ -1,5 +1,3 @@
-transnet *  checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+transnet *  checking whether package 'transnet' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/transnet.Rcheck/00install.out' for details.

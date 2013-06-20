@@ -1,14 +1,13 @@
-* using log directory '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/gppois.Rcheck'
-* using R version 3.0.0 beta (2013-03-24 r62396)
-* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/gppois.Rcheck'
+* using R version 3.0.1 (2013-05-16)
+* using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'gppois/DESCRIPTION' ... OK
 * checking extension type ... Package
 * this is package 'gppois' version '0.2-1'
 * checking package namespace information ... OK
-* checking package dependencies ... NOTE
-Package suggested but not available for checking: 'geometry'
+* checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
@@ -35,17 +34,10 @@ Package suggested but not available for checking: 'geometry'
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... NOTE
-PlotSurface: no visible global function definition for 'delaunayn'
-SortedConvexHullIndices: no visible global function definition for
-  'convhulln'
+* checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
-* checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+* checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
@@ -58,8 +50,3 @@ Execution halted
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'run-all.R'
-WARNING: There was 1 warning.
-NOTE: There were 2 notes.
-See
-  '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/gppois.Rcheck/00check.log'
-for details.

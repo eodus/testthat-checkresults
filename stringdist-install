@@ -1,35 +1,13 @@
 * installing *source* package 'stringdist' ...
 ** package 'stringdist' successfully unpacked and MD5 sums checked
 ** libs
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c dl.c -o dl.o
-dl.c: In function 'R_dl':
-dl.c:199:5: warning: pointer targets in passing argument 1 of 'distance' differ in signedness [-Wpointer-sign]
-dl.c:84:15: note: expected 'unsigned int *' but argument is of type 'int *'
-dl.c:199:5: warning: pointer targets in passing argument 2 of 'distance' differ in signedness [-Wpointer-sign]
-dl.c:84:15: note: expected 'unsigned int *' but argument is of type 'int *'
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c hamming.c -o hamming.o
-hamming.c: In function 'R_hm':
-hamming.c:51:7: warning: pointer targets in passing argument 1 of 'hamming' differ in signedness [-Wpointer-sign]
-hamming.c:7:5: note: expected 'unsigned int *' but argument is of type 'int *'
-hamming.c:51:7: warning: pointer targets in passing argument 2 of 'hamming' differ in signedness [-Wpointer-sign]
-hamming.c:7:5: note: expected 'unsigned int *' but argument is of type 'int *'
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c lv.c -o lv.o
-lv.c: In function 'R_lv':
-lv.c:83:7: warning: pointer targets in passing argument 1 of 'osa' differ in signedness [-Wpointer-sign]
-lv.c:12:15: note: expected 'unsigned int *' but argument is of type 'int *'
-lv.c:83:7: warning: pointer targets in passing argument 3 of 'osa' differ in signedness [-Wpointer-sign]
-lv.c:12:15: note: expected 'unsigned int *' but argument is of type 'int *'
-lv.c:63:12: warning: unused variable 'k' [-Wunused-variable]
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c osa.c -o osa.o
-osa.c: In function 'R_osa':
-osa.c:91:7: warning: pointer targets in passing argument 1 of 'osa' differ in signedness [-Wpointer-sign]
-osa.c:12:15: note: expected 'unsigned int *' but argument is of type 'int *'
-osa.c:91:7: warning: pointer targets in passing argument 3 of 'osa' differ in signedness [-Wpointer-sign]
-osa.c:12:15: note: expected 'unsigned int *' but argument is of type 'int *'
-osa.c:71:12: warning: unused variable 'k' [-Wunused-variable]
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c utils.c -o utils.o
-ccache gcc -shared -L/usr/local/lib -o stringdist.so dl.o hamming.o lv.o osa.o utils.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/stringdist.Rcheck/stringdist/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c dl.c -o dl.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c hamming.c -o hamming.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c lv.c -o lv.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c osa.c -o osa.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c utils.c -o utils.o
+gcc -std=gnu99 -shared -o stringdist.so dl.o hamming.o lv.o osa.o utils.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/stringdist.Rcheck/stringdist/libs
 ** R
 ** inst
 ** preparing package for lazy loading
@@ -37,6 +15,4 @@ installing to /mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/stringdist.Rcheck/strin
 *** installing help indices
 ** building package indices
 ** testing if installed package can be loaded
-Warning in file.copy(file.path(.Library, pkg, "DESCRIPTION"), pd) :
-  problem copying /usr/local/lib/R-devel/lib/R/library/MASS/DESCRIPTION to /tmp/RtmpPh5dwB/RLIBS_73d57a86da61/MASS/DESCRIPTION: No such file or directory
 * DONE (stringdist)

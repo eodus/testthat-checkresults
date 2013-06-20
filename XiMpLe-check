@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/XiMpLe.Rcheck'
-* using R version 3.0.0 beta (2013-03-24 r62396)
-* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/XiMpLe.Rcheck'
+* using R version 3.0.1 (2013-05-16)
+* using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'XiMpLe/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'XiMpLe' version '0.03-16'
+* this is package 'XiMpLe' version '0.03-20'
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
@@ -20,10 +20,7 @@ Package which this enhances but not available for checking: 'rkward'
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
-* checking top-level files ... NOTE
-File
-  LICENSE
-is not mentioned in the DESCRIPTION file.
+* checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... OK
@@ -42,11 +39,7 @@ is not mentioned in the DESCRIPTION file.
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
-* checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+* checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
@@ -65,8 +58,8 @@ checking a package with encoding  'UTF-8'  in an ASCII locale
 * checking package vignettes in 'inst/doc' ... OK
 * checking running R code from vignettes ... OK
 * checking re-building of vignette PDFs ... OK
-WARNING: There were 2 warnings.
-NOTE: There were 2 notes.
+WARNING: There was 1 warning.
+NOTE: There was 1 note.
 See
-  '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/XiMpLe.Rcheck/00check.log'
+  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/XiMpLe.Rcheck/00check.log'
 for details.

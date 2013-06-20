@@ -1,5 +1,16 @@
-popgraph *  checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+popgraph *  checking tests ... ERROR
+Running the tests in 'tests/run-testthat-popgraph.R' failed.
+Last 13 lines of output:
+  R is a collaborative project with many contributors.
+  Type 'contributors()' for more information and
+  'citation()' on how to cite R or R packages in publications.
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > require(testthat)
+  Loading required package: testthat
+  > test_package("popgraph")
+  Error: No tests found for popgraph
+  Execution halted

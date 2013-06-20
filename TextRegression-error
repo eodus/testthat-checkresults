@@ -1,5 +1,16 @@
-TextRegression *  checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+TextRegression *  checking tests ... ERROR
+Running the tests in 'tests/1.R' failed.
+Last 13 lines of output:
+  +   results <- regress.text(text, y)
+  +   errors <- abs(results$coefficients - c(intercept, beta))
+  +   
+  +   print(paste(i, max(errors)))
+  +   
+  +   expect_that(max(errors) < 10, is_true())
+  +   expect_that(length(results$coefficients) == length(results$terms), is_true())
+  + }
+  [1] "1 0.742412974727891"
+  [1] "2 7.07954729271733"
+  [1] "3 12.1885741557799"
+  Error: max(errors) < 10 isn't true
+  Execution halted

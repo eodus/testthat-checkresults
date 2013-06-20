@@ -1,5 +1,16 @@
-lubridate *  checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+lubridate *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  
+  
+  1. Failure: format.Duration correctly displays intervals of length 0 -----------
+  dur[FALSE] does not match 'Duration\(0)'. Actual value: 
+  
+  2. Failure: format.Interval correctly displays intervals of length 0 -----------
+  int[FALSE] does not match 'Interval\(0)'. Actual value: 
+  
+  3. Failure: format.Period correctly displays intervals of length 0 -------------
+  per[FALSE] does not match 'Period\(0)'. Actual value: 
+  
+  Error: Test failures
+  Execution halted

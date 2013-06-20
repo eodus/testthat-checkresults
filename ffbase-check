@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/ffbase.Rcheck'
-* using R version 3.0.0 beta (2013-03-24 r62396)
-* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/ffbase.Rcheck'
+* using R version 3.0.1 (2013-05-16)
+* using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'ffbase/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'ffbase' version '0.7'
+* this is package 'ffbase' version '0.8'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -37,11 +37,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
-* checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+* checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
@@ -51,15 +47,11 @@ Execution halted
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [56s/57s] OK
+* checking examples ... [34s/34s] OK
 Examples with CPU or elapsed time > 5s
              user system elapsed
-merge.ffdf 27.258  0.232  27.749
-ffrep.int  12.329  0.824  13.173
+merge.ffdf 18.541  0.204  18.806
+ffrep.int   4.864  0.672   5.544
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test_all.R'
-WARNING: There was 1 warning.
-See
-  '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/ffbase.Rcheck/00check.log'
-for details.

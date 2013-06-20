@@ -1,6 +1,6 @@
-* using log directory '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/emdbook.Rcheck'
-* using R version 3.0.0 beta (2013-03-24 r62396)
-* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/emdbook.Rcheck'
+* using R version 3.0.1 (2013-05-16)
+* using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'emdbook/DESCRIPTION' ... OK
@@ -37,11 +37,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
-* checking Rd cross-references ... WARNING
-Error in find.package(package, lib.loc) : 
-  there is no package called 'nlme'
-Calls: <Anonymous> -> lapply -> FUN -> find.package
-Execution halted
+* checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
@@ -50,11 +46,7 @@ Execution halted
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [13s/13s] OK
+* checking examples ... OK
 Examples with CPU or elapsed time > 5s
          user system elapsed
-curve3d 8.672  0.012   8.695
-WARNING: There was 1 warning.
-See
-  '/mnt/tmp/Rtmptg0ntB/check_cran118c1025db09/emdbook.Rcheck/00check.log'
-for details.
+curve3d 6.256  0.016   6.298
