@@ -9,7 +9,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c byS
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c grouprunningcumsum.c -o grouprunningcumsum.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c grouprunningcumsumindex.c -o grouprunningcumsumindex.o
 gcc -std=gnu99 -shared -o ffbase.so binned_sum.o binned_sumsq.o binned_tabulate.o bySum.o bySumsq.o grouprunningcumsum.o grouprunningcumsumindex.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/ffbase.Rcheck/ffbase/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/ffbase.Rcheck/ffbase/libs
 ** R
 ** inst
 ** preparing package for lazy loading

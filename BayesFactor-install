@@ -10,7 +10,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c nWa
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c oneWayAOV.c -o oneWayAOV.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c ttest.c -o ttest.o
 gcc -std=gnu99 -shared -o BayesFactor.so common.o debug.o linearReg.o logMean.o matrix.o nWayAOV.o oneWayAOV.o ttest.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/BayesFactor.Rcheck/BayesFactor/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/BayesFactor.Rcheck/BayesFactor/libs
 ** R
 ** data
 ** inst

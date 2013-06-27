@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/FuzzyNumbers.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/FuzzyNumbers.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'FuzzyNumbers/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'FuzzyNumbers' version '0.02'
+* this is package 'FuzzyNumbers' version '0.3-1'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,14 +14,11 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'FuzzyNumbers' can be installed ... OK
+* checking whether package 'FuzzyNumbers' can be installed ... [10s/10s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
-* checking top-level files ... NOTE
-File
-  LICENSE
-is not mentioned in the DESCRIPTION file.
+* checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... OK
@@ -49,7 +46,7 @@ is not mentioned in the DESCRIPTION file.
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking examples ... OK
-NOTE: There was 1 note.
-See
-  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/FuzzyNumbers.Rcheck/00check.log'
-for details.
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette PDFs ... OK

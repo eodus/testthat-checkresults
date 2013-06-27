@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/rgeos.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/rgeos.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'rgeos/DESCRIPTION' ... OK
-* this is package 'rgeos' version '0.2-17'
+* this is package 'rgeos' version '0.2-19'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -49,5 +49,5 @@
 * checking compiled code ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [55s/56s] OK
-  Running 'test-all.R' [54s/55s]
+* checking tests ... [57s/59s] OK
+  Running 'test-all.R' [57s/59s]

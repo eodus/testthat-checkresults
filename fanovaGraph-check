@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/fanovaGraph.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/fanovaGraph.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -52,15 +52,15 @@ plotManipulate: no visible global function definition for 'slider'
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... [27s/27s] OK
+* checking examples ... [29s/29s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-kmAdditive      10.712  0.016  10.860
-predictAdditive 10.189  0.004  10.189
+predictAdditive 12.321  0.000  12.323
+kmAdditive      10.644  0.048  10.745
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [25s/25s] OK
-  Running 'run-all.R' [25s/25s]
+  Running 'run-all.R' [24s/25s]
 NOTE: There were 2 notes.
 See
-  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/fanovaGraph.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/fanovaGraph.Rcheck/00check.log'
 for details.

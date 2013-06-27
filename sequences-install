@@ -10,7 +10,7 @@ g++ -shared -o sequences.so gccount.o gccount2.o -L/home/ubuntu/R-lib/Rcpp/lib -
 Error in loadNamespace(name) : there is no package called 'RcppClassic'
 Calls: ::: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
 Execution halted
-installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/sequences.Rcheck/sequences/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/sequences.Rcheck/sequences/libs
 ** R
 ** data
 ** inst

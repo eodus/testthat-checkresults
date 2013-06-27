@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/quadrupen.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/quadrupen.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'quadrupen' can be installed ... [71s/71s] OK
+* checking whether package 'quadrupen' can be installed ... [68s/69s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -48,7 +48,7 @@
 * checking for portable compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [14s/13s] OK
+* checking examples ... [14s/14s] OK
 Examples with CPU or elapsed time > 5s
              user system elapsed
-bounded.reg 5.204  0.036   5.237
+bounded.reg 5.224  0.048   5.342

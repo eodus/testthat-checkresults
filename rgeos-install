@@ -3,8 +3,8 @@
 configure: CC: gcc -std=gnu99
 configure: CXX: g++
 configure: rgeos: 0.2-17
-./configure: line 1336: svnversion: command not found
-configure: svn revision: 
+checking for /usr/bin/svnversion... no
+configure: svn revision: 394
 checking geos-config usability... yes
 configure: geos-config: geos-config
 configure: GEOS version: 3.2.2
@@ -59,7 +59,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_validate.c -o rgeos_validate.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/ubuntu/R-lib/sp/include"   -fpic  -O3 -pipe  -g  -c rgeos_wkt.c -o rgeos_wkt.o
 g++ -shared -o rgeos.so dummy.o init.o local_stubs.o rgeos.o rgeos_R2geos.o rgeos_R2geosMP.o rgeos_bbox.o rgeos_buffer.o rgeos_coord.o rgeos_geos2R.o rgeos_misc.o rgeos_poly2nb.o rgeos_predicate_binary.o rgeos_predicate_unary.o rgeos_topology.o rgeos_topology_binary.o rgeos_validate.o rgeos_wkt.o -L/usr/lib -lgeos -lgeos_c -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/rgeos.Rcheck/rgeos/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/rgeos.Rcheck/rgeos/libs
 ** R
 ** inst
 ** preparing package for lazy loading

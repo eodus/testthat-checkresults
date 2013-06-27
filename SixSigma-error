@@ -4,4 +4,4 @@ checking a package with encoding  'UTF-8'  in an ASCII locale
  [15s/16s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-SixSigma-package 6.396  0.084   6.525
+SixSigma-package 6.784   0.04   6.952

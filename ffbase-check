@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/ffbase.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/ffbase.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -47,11 +47,11 @@
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [34s/34s] OK
+* checking examples ... [34s/35s] OK
 Examples with CPU or elapsed time > 5s
              user system elapsed
-merge.ffdf 18.541  0.204  18.806
-ffrep.int   4.864  0.672   5.544
+merge.ffdf 18.293  0.212  18.863
+ffrep.int   4.872  0.672   5.550
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test_all.R'

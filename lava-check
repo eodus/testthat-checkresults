@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/lava.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/lava.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -107,5 +107,5 @@ vars.graph: no visible global function definition for 'nodes'
   Running 'test-all.R' [11s/11s]
 NOTE: There were 2 notes.
 See
-  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/lava.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/lava.Rcheck/00check.log'
 for details.

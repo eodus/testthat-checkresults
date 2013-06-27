@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/ggplot2.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/ggplot2.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -79,22 +79,23 @@ summarise_by_x: no visible binding for global variable 'x'
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [179s/181s] OK
+* checking examples ... [183s/190s] OK
 Examples with CPU or elapsed time > 5s
                          user system elapsed
-geom_dotplot            7.236  0.004   7.434
-geom_line               7.196  0.012   7.209
-guide_colourbar         7.116  0.008   7.124
-scale_date              6.472  0.024   6.515
-coord_map               6.189  0.028   6.222
-scale_brewer            6.200  0.012   6.213
-aes_linetype_size_shape 5.888  0.020   5.994
-fortify.lm              5.360  0.024   5.467
-geom_linerange          5.052  0.020   5.071
+guide_colourbar         8.056  0.020   8.973
+geom_dotplot            7.617  0.008   7.873
+geom_line               7.072  0.016   7.179
+coord_map               6.353  0.004   6.356
+aes_linetype_size_shape 6.116  0.028   6.350
+scale_brewer            5.652  0.016   5.667
+fortify.lm              5.560  0.012   6.099
+scale_date              5.240  0.016   5.725
+coord_cartesian         4.860  0.032   5.076
+geom_abline             4.833  0.024   5.032
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [15s/15s] OK
-  Running 'test-all.R' [15s/15s]
+* checking tests ... [14s/14s] OK
+  Running 'test-all.R' [14s/14s]
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/ggplot2.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/ggplot2.Rcheck/00check.log'
 for details.

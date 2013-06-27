@@ -6,7 +6,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c ghq
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c glue.c -o glue.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c libirt-rpf.c -o libirt-rpf.o
 gcc -std=gnu99 -shared -o rpf.so diagnose.o ghquad.o glue.o libirt-rpf.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/rpf.Rcheck/rpf/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/rpf.Rcheck/rpf/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

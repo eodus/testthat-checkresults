@@ -84,10 +84,10 @@ Last 13 lines of output:
   1. Error: AppendCheckDigit.Verhoeff returns correct values ---------------------
   missing value where TRUE/FALSE needed
   1: expect_that(AppendCheckDigit(as.character(NA), "Verhoeff"), is_equivalent_to(as.character(NA))) at test-AppendCheckDigit.R:33
-  2: condition(object) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expect-that.r:43
-  3: equals(expected, check.attributes = FALSE)(actual) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:210
-  4: compare(expected, actual, ...) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:166
-  5: compare.character(expected, actual, ...) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/compare.r:2
+  2: condition(object) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expect-that.r:43
+  3: equals(expected, check.attributes = FALSE)(actual) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:210
+  4: compare(expected, actual, ...) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:166
+  5: compare.character(expected, actual, ...) at /mnt/tmp/RtmpEhoweR/testthat-master/R/compare.r:2
   
   Error: Test failures
   Execution halted 
@@ -101,11 +101,11 @@ Last 13 lines of output:
   2. Error: minimal usage of mod.obigt() creates usable data entries -------------
   'test' is not a simple chemical formula
   1: expect_warning(mod.obigt("test", date = today()), "please supply a valid chemical formula") at test-thermo.R:29
-  2: expect_that(object, gives_warning(regexp, ...), info = info, label = label) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:455
-  3: condition(object) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expect-that.r:43
-  4: evaluate_promise(expr) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:434
-  5: with_sink(temp, withCallingHandlers(code, warning = wHandler, message = mHandler)) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/evaluate-promise.r:39
-  6: withCallingHandlers(code, warning = wHandler, message = mHandler) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/evaluate-promise.r:57
+  2: expect_that(object, gives_warning(regexp, ...), info = info, label = label) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:455
+  3: condition(object) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expect-that.r:43
+  4: evaluate_promise(expr) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:434
+  5: with_sink(temp, withCallingHandlers(code, warning = wHandler, message = mHandler)) at /mnt/tmp/RtmpEhoweR/testthat-master/R/evaluate-promise.r:39
+  6: withCallingHandlers(code, warning = wHandler, message = mHandler) at /mnt/tmp/RtmpEhoweR/testthat-master/R/evaluate-promise.r:57
   7: mod.obigt("test", date = today())
   
   Error: Test failures
@@ -315,10 +315,10 @@ Last 13 lines of output:
   1. Error: status converted to errors -------------------------------------------
   length(regexp) == 1 is not TRUE
   1: expect_error(stop_for_status(s300), c("300", "redirect")) at test-request.r:19
-  2: expect_that(object, throws_error(regexp, ...), info = info, label = label) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:402
-  3: condition(object) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expect-that.r:43
-  4: matches(regexp, ...) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:388
-  5: stopifnot(is.character(regexp), length(regexp) == 1) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:300
+  2: expect_that(object, throws_error(regexp, ...), info = info, label = label) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:402
+  3: condition(object) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expect-that.r:43
+  4: matches(regexp, ...) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:388
+  5: stopifnot(is.character(regexp), length(regexp) == 1) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:300
   6: stop(sprintf(ngettext(length(r), "%s is not TRUE", "%s are not all TRUE"), ch), call. = FALSE, 
          domain = NA)
   
@@ -452,7 +452,22 @@ mosaic ==================================================================
 
 
 mrds ==================================================================== 
- 
+ *  checking tests ... ERROR
+Running the tests in 'tests/run-all.R' failed.
+Last 13 lines of output:
+  nasty mixtures : 
+  No sightings : ........
+  trial and trial.io : ......
+  
+  
+  1. Failure: parameter estimates are the same -----------------------------------
+  summary(result.optimx) does not match '[^(Monotonicity constraints were enforced.)]'. Actual value: 
+  
+  2. Failure: parameter estimates are the same -----------------------------------
+  summary(result.optimx) does not match '[^(Strict monotonicity constraints were enforced.)]'. Actual value: 
+  
+  Error: Test failures
+  Execution halted 
 
 
 multilevelPSA =========================================================== 
@@ -599,14 +614,14 @@ checking a package with encoding  'UTF-8'  in an ASCII locale
  OK
 WARNING: There was 1 warning.
 See
-  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/questionr.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/questionr.Rcheck/00check.log'
 for details. 
 
 
 RAppArmor =============================================================== 
  *  checking whether package 'RAppArmor' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/RAppArmor.Rcheck/00install.out' for details. 
+See '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/RAppArmor.Rcheck/00install.out' for details. 
 
 
 rbefdata ================================================================ 
@@ -683,7 +698,7 @@ rspear ==================================================================
 Rssa ==================================================================== 
  *  checking whether package 'Rssa' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/Rssa.Rcheck/00install.out' for details. 
+See '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/Rssa.Rcheck/00install.out' for details. 
 
 
 scales ================================================================== 
@@ -717,7 +732,7 @@ checking a package with encoding  'UTF-8'  in an ASCII locale
  [15s/16s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-SixSigma-package 6.396  0.084   6.525 
+SixSigma-package 6.784   0.04   6.952 
 
 
 smcUtils ================================================================ 
@@ -802,7 +817,7 @@ transmission ============================================================
 transnet ================================================================ 
  *  checking whether package 'transnet' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/transnet.Rcheck/00install.out' for details. 
+See '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/transnet.Rcheck/00install.out' for details. 
 
 
 treebase ================================================================ 

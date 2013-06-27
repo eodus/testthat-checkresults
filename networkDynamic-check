@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/networkDynamic.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/networkDynamic.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -54,10 +54,10 @@
 * checking installed files from 'inst/doc' ... OK
 * checking examples ... [12s/12s] OK
 Examples with CPU or elapsed time > 5s
-                 user system elapsed
-networkDynamic 10.432  0.008  10.446
+               user system elapsed
+networkDynamic 9.68  0.012   9.691
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [44s/44s] OK
+* checking tests ... [44s/45s] OK
   Running 'activate_tests.R'
   Running 'classTests.R'
   Running 'converter_tests.R' [28s/28s]
@@ -68,4 +68,4 @@ networkDynamic 10.432  0.008  10.446
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
 * checking running R code from vignettes ... [42s/42s] OK
-* checking re-building of vignette PDFs ... [33s/34s] OK
+* checking re-building of vignette PDFs ... [40s/41s] OK

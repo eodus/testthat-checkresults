@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/pnn.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/pnn.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -47,5 +47,5 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... [12s/12s] OK
 Examples with CPU or elapsed time > 5s
-       user system elapsed
-perf 10.616  0.004  10.638
+      user system elapsed
+perf 10.88  0.012  10.896

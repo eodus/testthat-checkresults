@@ -2,11 +2,11 @@
 ** package 'FuzzyNumbers' successfully unpacked and MD5 sums checked
 ** R
 ** inst
-** preparing package for lazy loading
-Creating a generic function for 'plot' from package 'graphics' in package 'FuzzyNumbers'
+** byte-compile and prepare package for lazy loading
 ** help
 *** installing help indices
 ** building package indices
 ** installing vignettes
+   'FuzzyNumbers-Tutorial.Rnw' 
 ** testing if installed package can be loaded
 * DONE (FuzzyNumbers)

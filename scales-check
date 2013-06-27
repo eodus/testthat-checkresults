@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/scales.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/scales.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -50,5 +50,5 @@ math_format: no visible binding for global variable '.x'
   Running 'test-all.R'
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/scales.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/scales.Rcheck/00check.log'
 for details.

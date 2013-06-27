@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/transnet.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/transnet.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -16,4 +16,4 @@
 * checking for sufficient/correct file permissions ... OK
 * checking whether package 'transnet' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/transnet.Rcheck/00install.out' for details.
+See '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/transnet.Rcheck/00install.out' for details.

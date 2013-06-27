@@ -7,10 +7,10 @@ Last 13 lines of output:
   1. Error: AppendCheckDigit.Verhoeff returns correct values ---------------------
   missing value where TRUE/FALSE needed
   1: expect_that(AppendCheckDigit(as.character(NA), "Verhoeff"), is_equivalent_to(as.character(NA))) at test-AppendCheckDigit.R:33
-  2: condition(object) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expect-that.r:43
-  3: equals(expected, check.attributes = FALSE)(actual) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:210
-  4: compare(expected, actual, ...) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/expectations.r:166
-  5: compare.character(expected, actual, ...) at /mnt/tmp/RtmpFC5nGW/testthat-master/R/compare.r:2
+  2: condition(object) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expect-that.r:43
+  3: equals(expected, check.attributes = FALSE)(actual) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:210
+  4: compare(expected, actual, ...) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:166
+  5: compare.character(expected, actual, ...) at /mnt/tmp/RtmpEhoweR/testthat-master/R/compare.r:2
   
   Error: Test failures
   Execution halted

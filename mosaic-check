@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/mosaic.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/mosaic.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -15,7 +15,7 @@ Package suggested but not available for checking: 'manipulate'
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'mosaic' can be installed ... OK
+* checking whether package 'mosaic' can be installed ... [10s/10s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -59,13 +59,13 @@ See section 'Good practice' in '?data'.
 * checking data for ASCII and uncompressed saves ... OK
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
-* checking examples ... [74s/74s] OK
+* checking examples ... [69s/72s] OK
 Examples with CPU or elapsed time > 5s
                 user system elapsed
-findZerosMult 17.193  0.012  17.211
-plotFun        6.536  0.028   6.564
-statTally      5.520  0.000   5.517
-findZeros      5.433  0.000   5.437
+findZerosMult 14.505  0.012  14.514
+plotFun        6.184  0.024   6.813
+statTally      5.253  0.000   5.657
+findZeros      5.217  0.004   5.676
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [24s/24s] OK
   Running 'test-all.R' [23s/24s]
@@ -75,5 +75,5 @@ findZeros      5.433  0.000   5.437
 * checking re-building of vignette PDFs ... OK
 NOTE: There were 2 notes.
 See
-  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/mosaic.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/mosaic.Rcheck/00check.log'
 for details.

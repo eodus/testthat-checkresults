@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/EpiContactTrace.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/EpiContactTrace.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'EpiContactTrace' can be installed ... [13s/13s] OK
+* checking whether package 'EpiContactTrace' can be installed ... [13s/14s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -54,11 +54,11 @@ File 'EpiContactTrace/R/report.r':
 * checking for portable compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [25s/26s] OK
+* checking examples ... [26s/26s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'run-all.R'
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/EpiContactTrace.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/EpiContactTrace.Rcheck/00check.log'
 for details.

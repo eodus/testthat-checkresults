@@ -3,7 +3,7 @@
 ** libs
 gfortran  -fpic -O3 -pipe  -g  -c  variable_splitting.f90 -o variable_splitting.o
 gfortran -shared -o cvxclustr.so variable_splitting.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpFC5nGW/check_cranea560e5f3ac/cvxclustr.Rcheck/cvxclustr/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/cvxclustr.Rcheck/cvxclustr/libs
 ** R
 ** data
 ** preparing package for lazy loading
