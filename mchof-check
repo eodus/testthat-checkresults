@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/mchof.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/mchof.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -46,4 +46,4 @@
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [8s/13s] OK
-  Running 'run_tests.R' [8s/12s]
+  Running 'run_tests.R' [7s/13s]

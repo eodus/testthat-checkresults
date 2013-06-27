@@ -10,7 +10,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c qgr
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c qgram2.c -o qgram2.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c utils.c -o utils.o
 gcc -std=gnu99 -shared -o stringdist.so dl.o hamming.o lcs.o lv.o osa.o qgram.o qgram2.o utils.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/stringdist.Rcheck/stringdist/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/stringdist.Rcheck/stringdist/libs
 ** R
 ** inst
 ** preparing package for lazy loading

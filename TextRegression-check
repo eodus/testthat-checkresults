@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/TextRegression.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/TextRegression.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -44,11 +44,11 @@ regress.text: no visible binding for global variable 'Lambda'
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... [21s/21s] OK
+* checking examples ... [23s/23s] OK
 Examples with CPU or elapsed time > 5s
-                user system elapsed
-TextRegression 9.248  0.100   9.309
-regress.text   8.421  0.124   8.484
+                 user system elapsed
+TextRegression 10.008  0.100  10.071
+regress.text    8.701  0.112   8.753
 * checking for unstated dependencies in tests ... OK
 * checking tests ... ERROR
 Running the tests in 'tests/1.R' failed.

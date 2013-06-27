@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/ndtv.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/ndtv.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -48,16 +48,17 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
-* checking examples ... [14s/14s] OK
+* checking examples ... [15s/16s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-render.animation 8.084   0.08   8.619
+render.animation 9.188  0.108   9.963
+msm.sim          4.864  0.056   5.125
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [36s/37s] OK
+* checking tests ... [35s/36s] OK
   Running 'layout_tests.R'
   Running 'networkAnimationTest.R' [23s/24s]
-  Running 'timeline_test.R' [12s/12s]
+  Running 'timeline_test.R' [11s/11s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [169s/174s] OK
-* checking re-building of vignette PDFs ... [123s/124s] OK
+* checking running R code from vignettes ... [166s/171s] OK
+* checking re-building of vignette PDFs ... [122s/123s] OK

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/plyr.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/plyr.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -51,16 +51,17 @@ l_ply: no visible binding for global variable 'd'
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [50s/53s] OK
+* checking examples ... [53s/55s] OK
 Examples with CPU or elapsed time > 5s
            user system elapsed
-baseball 11.100  0.008  11.105
-ddply     5.976  0.000   6.096
-dlply     5.480  0.004   5.507
+baseball 11.516  0.016  11.591
+dlply     6.156  0.012   6.165
+ddply     6.096  0.000   6.097
+liply     5.056  0.000   5.070
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test-all.R'
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/plyr.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/plyr.Rcheck/00check.log'
 for details.

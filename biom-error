@@ -7,10 +7,10 @@ Last 13 lines of output:
   ........................12......................................................................................
   
   1. Failure: show method output tests -------------------------------------------
-  x1 does not match 'biom object. type:'. Actual value: 
+  x1 does not match 'biom object. type:'. Actual value: "biom object. \ntype: OTU table \nmatrix_type: dense \n5 rows and 6 columns "
   
   2. Failure: show method output tests -------------------------------------------
-  x4 does not match 'biom object. type:'. Actual value: 
+  x4 does not match 'biom object. type:'. Actual value: "biom object. \ntype: OTU table \nmatrix_type: sparse \n5 rows and 6 columns "
   
   Error: Test failures
   Execution halted

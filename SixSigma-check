@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/SixSigma.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/SixSigma.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -64,10 +64,10 @@ See section 'Good practice' in '?attach'.
 * checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [15s/16s] OK
+ [15s/15s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-SixSigma-package 6.784   0.04   6.952
+SixSigma-package 6.628  0.052   6.862
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'run-all.R'
@@ -78,5 +78,5 @@ SixSigma-package 6.784   0.04   6.952
 WARNING: There was 1 warning.
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/SixSigma.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/SixSigma.Rcheck/00check.log'
 for details.

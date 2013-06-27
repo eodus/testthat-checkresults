@@ -53,10 +53,10 @@ Last 13 lines of output:
   ........................12......................................................................................
   
   1. Failure: show method output tests -------------------------------------------
-  x1 does not match 'biom object. type:'. Actual value: 
+  x1 does not match 'biom object. type:'. Actual value: "biom object. \ntype: OTU table \nmatrix_type: dense \n5 rows and 6 columns "
   
   2. Failure: show method output tests -------------------------------------------
-  x4 does not match 'biom object. type:'. Actual value: 
+  x4 does not match 'biom object. type:'. Actual value: "biom object. \ntype: OTU table \nmatrix_type: sparse \n5 rows and 6 columns "
   
   Error: Test failures
   Execution halted 
@@ -97,16 +97,16 @@ CHNOSZ ==================================================================
  *  checking tests ... ERROR
 Running the tests in 'tests/test-all.R' failed.
 Last 13 lines of output:
-  
   2. Error: minimal usage of mod.obigt() creates usable data entries -------------
   'test' is not a simple chemical formula
   1: expect_warning(mod.obigt("test", date = today()), "please supply a valid chemical formula") at test-thermo.R:29
   2: expect_that(object, gives_warning(regexp, ...), info = info, label = label) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:455
   3: condition(object) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expect-that.r:43
   4: evaluate_promise(expr) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:434
-  5: with_sink(temp, withCallingHandlers(code, warning = wHandler, message = mHandler)) at /mnt/tmp/RtmpEhoweR/testthat-master/R/evaluate-promise.r:39
-  6: withCallingHandlers(code, warning = wHandler, message = mHandler) at /mnt/tmp/RtmpEhoweR/testthat-master/R/evaluate-promise.r:57
-  7: mod.obigt("test", date = today())
+  5: with_sink(temp, withCallingHandlers(withVisible(code), warning = wHandler, message = mHandler)) at /mnt/tmp/RtmpEhoweR/testthat-master/R/evaluate-promise.r:42
+  6: withCallingHandlers(withVisible(code), warning = wHandler, message = mHandler) at /mnt/tmp/RtmpEhoweR/testthat-master/R/evaluate-promise.r:65
+  7: withVisible(code)
+  8: mod.obigt("test", date = today())
   
   Error: Test failures
   Execution halted 
@@ -277,22 +277,7 @@ growcurves ==============================================================
 
 
 gstudio ================================================================= 
- *  checking tests ... ERROR
-Running the tests in 'tests/run-testthat-gstudio.R' failed.
-Last 13 lines of output:
-  loc.snp0 does not match 'A:A'. Actual value: 
-  
-  3. Failure: SNP Creation -------------------------------------------------------
-  loc.snp1 does not match 'A:B'. Actual value: 
-  
-  4. Failure: SNP Creation -------------------------------------------------------
-  loc.snp2 does not match 'B:B'. Actual value: 
-  
-  5. Failure: testing ------------------------------------------------------------
-  o$TPI[1] does not match 'A:A'. Actual value: 
-  
-  Error: Test failures
-  Execution halted 
+ 
 
 
 gtable ================================================================== 
@@ -308,22 +293,41 @@ hash ====================================================================
 
 
 httr ==================================================================== 
- *  checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
-Last 13 lines of output:
-  
-  1. Error: status converted to errors -------------------------------------------
-  length(regexp) == 1 is not TRUE
-  1: expect_error(stop_for_status(s300), c("300", "redirect")) at test-request.r:19
-  2: expect_that(object, throws_error(regexp, ...), info = info, label = label) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:402
-  3: condition(object) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expect-that.r:43
-  4: matches(regexp, ...) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:388
-  5: stopifnot(is.character(regexp), length(regexp) == 1) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:300
-  6: stop(sprintf(ngettext(length(r), "%s is not TRUE", "%s are not all TRUE"), ch), call. = FALSE, 
-         domain = NA)
-  
-  Error: Test failures
-  Execution halted 
+ *  checking examples ... ERROR
+Running examples in 'httr-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: POST
+> ### Title: POST file to a server.
+> ### Aliases: POST
+> 
+> ### ** Examples
+> 
+> b <- new_bin()
+Loading required package: rjson
+> POST(b)
+Response [http://requestb.in/1bvzced1]
+  Status: 200
+  Content-type: text/html; charset=utf-8
+ok
+ 
+> POST(b, body = "A simple text string")
+Response [http://requestb.in/1bvzced1]
+  Status: 200
+  Content-type: text/html; charset=utf-8
+ok
+ 
+> POST(b, body = list(a = 1, b = 2, c = 3))
+Response [http://requestb.in/1bvzced1]
+  Status: 200
+  Content-type: text/html; charset=utf-8
+ok
+ 
+> POST(b, body = list(a = 1, file = upload_file(system.file("CITATION"))))
+Error in function (type, msg, asError = TRUE)  : Empty reply from server
+Calls: POST ... make_request -> .postForm -> .Call -> <Anonymous> -> fun
+Execution halted 
 
 
 hyperSpec =============================================================== 
@@ -394,22 +398,7 @@ ltmle ===================================================================
 
 
 lubridate =============================================================== 
- *  checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
-Last 13 lines of output:
-  
-  
-  1. Failure: format.Duration correctly displays intervals of length 0 -----------
-  dur[FALSE] does not match 'Duration\(0)'. Actual value: 
-  
-  2. Failure: format.Interval correctly displays intervals of length 0 -----------
-  int[FALSE] does not match 'Interval\(0)'. Actual value: 
-  
-  3. Failure: format.Period correctly displays intervals of length 0 -------------
-  per[FALSE] does not match 'Period\(0)'. Actual value: 
-  
-  Error: Test failures
-  Execution halted 
+ 
 
 
 MALDIquantForeign ======================================================= 
@@ -452,22 +441,7 @@ mosaic ==================================================================
 
 
 mrds ==================================================================== 
- *  checking tests ... ERROR
-Running the tests in 'tests/run-all.R' failed.
-Last 13 lines of output:
-  nasty mixtures : 
-  No sightings : ........
-  trial and trial.io : ......
-  
-  
-  1. Failure: parameter estimates are the same -----------------------------------
-  summary(result.optimx) does not match '[^(Monotonicity constraints were enforced.)]'. Actual value: 
-  
-  2. Failure: parameter estimates are the same -----------------------------------
-  summary(result.optimx) does not match '[^(Strict monotonicity constraints were enforced.)]'. Actual value: 
-  
-  Error: Test failures
-  Execution halted 
+ 
 
 
 multilevelPSA =========================================================== 
@@ -511,22 +485,7 @@ optparse ================================================================
 
 
 ParamHelpers ============================================================ 
- *  checking tests ... ERROR
-Running the tests in 'tests/run-all.R' failed.
-Last 13 lines of output:
-  filterParams(ps, "logical") does not match 'Empty parameter set.'. Actual value: 
-  
-  8. Failure: filter empty paramset ----------------------------------------------
-  filterParams(ps, "function") does not match 'Empty parameter set.'. Actual value: 
-  
-  9. Failure: filter empty paramset ----------------------------------------------
-  filterParams(ps, "untyped") does not match 'Empty parameter set.'. Actual value: 
-  
-  a. Failure: filter mixed paramset ----------------------------------------------
-  filterParams(ps, "function") does not match 'Empty parameter set.'. Actual value: 
-  
-  Error: Test failures
-  Execution halted 
+ 
 
 
 pcrsim ================================================================== 
@@ -614,14 +573,14 @@ checking a package with encoding  'UTF-8'  in an ASCII locale
  OK
 WARNING: There was 1 warning.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/questionr.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/questionr.Rcheck/00check.log'
 for details. 
 
 
 RAppArmor =============================================================== 
  *  checking whether package 'RAppArmor' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/RAppArmor.Rcheck/00install.out' for details. 
+See '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/RAppArmor.Rcheck/00install.out' for details. 
 
 
 rbefdata ================================================================ 
@@ -698,7 +657,7 @@ rspear ==================================================================
 Rssa ==================================================================== 
  *  checking whether package 'Rssa' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/Rssa.Rcheck/00install.out' for details. 
+See '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/Rssa.Rcheck/00install.out' for details. 
 
 
 scales ================================================================== 
@@ -729,10 +688,10 @@ SixSigma ================================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [15s/16s] OK
+ [15s/15s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-SixSigma-package 6.784   0.04   6.952 
+SixSigma-package 6.628  0.052   6.862 
 
 
 smcUtils ================================================================ 
@@ -817,7 +776,7 @@ transmission ============================================================
 transnet ================================================================ 
  *  checking whether package 'transnet' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/transnet.Rcheck/00install.out' for details. 
+See '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/transnet.Rcheck/00install.out' for details. 
 
 
 treebase ================================================================ 

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/plumbr.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/plumbr.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -68,5 +68,5 @@ coerce,RegionSelection-matrix: no visible binding for global variable
   Running 'test-all.R'
 NOTE: There were 2 notes.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/plumbr.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/plumbr.Rcheck/00check.log'
 for details.

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/questionr.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/questionr.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -52,5 +52,5 @@ checking a package with encoding  'UTF-8'  in an ASCII locale
  OK
 WARNING: There was 1 warning.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/questionr.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/questionr.Rcheck/00check.log'
 for details.

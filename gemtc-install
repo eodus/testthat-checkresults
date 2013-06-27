@@ -3,7 +3,7 @@
 ** libs
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c rank.c -o rank.o
 gcc -std=gnu99 -shared -o gemtc.so rank.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/gemtc.Rcheck/gemtc/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/gemtc.Rcheck/gemtc/libs
 ** R
 ** inst
 ** preparing package for lazy loading

@@ -3,7 +3,7 @@
 ** libs
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -O3 -pipe  -g  -c trace.cpp -o trace.o
 g++ -shared -o EpiContactTrace.so trace.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/EpiContactTrace.Rcheck/EpiContactTrace/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/EpiContactTrace.Rcheck/EpiContactTrace/libs
 ** R
 ** data
 ** inst

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/gstudio.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/gstudio.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'gstudio' can be installed ... [11s/11s] OK
+* checking whether package 'gstudio' can be installed ... [11s/12s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -50,19 +50,9 @@
 * checking installed files from 'inst/doc' ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/run-testthat-gstudio.R' failed.
-Last 13 lines of output:
-  loc.snp0 does not match 'A:A'. Actual value: 
-  
-  3. Failure: SNP Creation -------------------------------------------------------
-  loc.snp1 does not match 'A:B'. Actual value: 
-  
-  4. Failure: SNP Creation -------------------------------------------------------
-  loc.snp2 does not match 'B:B'. Actual value: 
-  
-  5. Failure: testing ------------------------------------------------------------
-  o$TPI[1] does not match 'A:A'. Actual value: 
-  
-  Error: Test failures
-  Execution halted
+* checking tests ... [14s/16s] OK
+  Running 'run-testthat-gstudio.R' [13s/15s]
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette PDFs ... OK

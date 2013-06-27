@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/mets.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/mets.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -15,7 +15,7 @@ Package which this enhances but not available for checking: 'alr'
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'mets' can be installed ... [154s/153s] OK
+* checking whether package 'mets' can be installed ... [157s/157s] OK
 * checking installed package size ... NOTE
   installed size is 10.0Mb
   sub-directories of 1Mb or more:
@@ -55,11 +55,11 @@ Package which this enhances but not available for checking: 'alr'
 * checking for portable compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [24s/25s] OK
+* checking examples ... [24s/24s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test-all.R'
 NOTE: There were 2 notes.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/mets.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/mets.Rcheck/00check.log'
 for details.

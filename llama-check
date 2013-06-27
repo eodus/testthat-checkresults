@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/llama.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/llama.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -53,5 +53,5 @@ Packages suggested but not available for checking: 'RWeka' 'FSelector'
   Running 'run-all.R'
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/llama.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/llama.Rcheck/00check.log'
 for details.

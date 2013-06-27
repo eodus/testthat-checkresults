@@ -15,7 +15,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c vec
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c wrappers.c -o wrappers.o
 gcc -std=gnu99 -shared -o data.table.so assign.o countingcharacter.o dogroups.o duplist.o fastmean.o fread.o init.o rbindlist.o reorder.o sortedmatch.o vecseq.o wrappers.o -L/usr/lib/R/lib -lR
 mv data.table.so datatable.so
-installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/data.table.Rcheck/data.table/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/data.table.Rcheck/data.table/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading

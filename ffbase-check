@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/ffbase.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/ffbase.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -50,8 +50,8 @@
 * checking examples ... [34s/35s] OK
 Examples with CPU or elapsed time > 5s
              user system elapsed
-merge.ffdf 18.293  0.212  18.863
-ffrep.int   4.872  0.672   5.550
+merge.ffdf 17.945  0.232  18.454
+ffrep.int   4.764  0.692   5.729
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test_all.R'

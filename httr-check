@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/httr.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/httr.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -44,33 +44,38 @@
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
 * checking R/sysdata.rda ... OK
-* checking examples ... [4s/64s] OK
-Examples with CPU or elapsed time > 5s
-              user system elapsed
-POST         0.272  0.000   6.772
-PUT          0.240  0.004   6.618
-DELETE       0.168  0.012   5.898
-content      0.124  0.012   5.970
-http_status  0.108  0.000   6.205
-url_success  0.092  0.004   5.403
-http_error   0.084  0.004   5.459
-url_ok       0.076  0.004   5.323
-authenticate 0.076  0.000   5.543
-upload_file  0.036  0.000   5.136
-* checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
-Last 13 lines of output:
-  
-  1. Error: status converted to errors -------------------------------------------
-  length(regexp) == 1 is not TRUE
-  1: expect_error(stop_for_status(s300), c("300", "redirect")) at test-request.r:19
-  2: expect_that(object, throws_error(regexp, ...), info = info, label = label) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:402
-  3: condition(object) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expect-that.r:43
-  4: matches(regexp, ...) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:388
-  5: stopifnot(is.character(regexp), length(regexp) == 1) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:300
-  6: stop(sprintf(ngettext(length(r), "%s is not TRUE", "%s are not all TRUE"), ch), call. = FALSE, 
-         domain = NA)
-  
-  Error: Test failures
-  Execution halted
+* checking examples ... ERROR
+Running examples in 'httr-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: POST
+> ### Title: POST file to a server.
+> ### Aliases: POST
+> 
+> ### ** Examples
+> 
+> b <- new_bin()
+Loading required package: rjson
+> POST(b)
+Response [http://requestb.in/1bvzced1]
+  Status: 200
+  Content-type: text/html; charset=utf-8
+ok
+ 
+> POST(b, body = "A simple text string")
+Response [http://requestb.in/1bvzced1]
+  Status: 200
+  Content-type: text/html; charset=utf-8
+ok
+ 
+> POST(b, body = list(a = 1, b = 2, c = 3))
+Response [http://requestb.in/1bvzced1]
+  Status: 200
+  Content-type: text/html; charset=utf-8
+ok
+ 
+> POST(b, body = list(a = 1, file = upload_file(system.file("CITATION"))))
+Error in function (type, msg, asError = TRUE)  : Empty reply from server
+Calls: POST ... make_request -> .postForm -> .Call -> <Anonymous> -> fun
+Execution halted

@@ -7,7 +7,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c low
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c morphologicalFilters.c -o morphologicalFilters.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c snip.c -o snip.o
 gcc -std=gnu99 -shared -o MALDIquant.so init.o localMaxima.o lowerConvexHull.o morphologicalFilters.o snip.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/MALDIquant.Rcheck/MALDIquant/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/MALDIquant.Rcheck/MALDIquant/libs
 ** R
 ** data
 ** demo

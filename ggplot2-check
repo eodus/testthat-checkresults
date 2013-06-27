@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/ggplot2.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/ggplot2.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'ggplot2' can be installed ... [11s/11s] OK
+* checking whether package 'ggplot2' can be installed ... [11s/12s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -79,23 +79,22 @@ summarise_by_x: no visible binding for global variable 'x'
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [183s/190s] OK
+* checking examples ... [179s/186s] OK
 Examples with CPU or elapsed time > 5s
                          user system elapsed
-guide_colourbar         8.056  0.020   8.973
-geom_dotplot            7.617  0.008   7.873
-geom_line               7.072  0.016   7.179
-coord_map               6.353  0.004   6.356
-aes_linetype_size_shape 6.116  0.028   6.350
-scale_brewer            5.652  0.016   5.667
-fortify.lm              5.560  0.012   6.099
-scale_date              5.240  0.016   5.725
-coord_cartesian         4.860  0.032   5.076
-geom_abline             4.833  0.024   5.032
+guide_colourbar         8.348  0.024   8.836
+geom_line               7.432  0.008   7.649
+geom_dotplot            7.388  0.016   7.636
+scale_brewer            6.188  0.008   6.211
+coord_map               6.173  0.016   6.195
+scale_date              6.008  0.000   6.009
+aes_linetype_size_shape 5.256  0.020   5.811
+coord_cartesian         4.864  0.008   5.359
+fortify.lm              4.764  0.016   5.220
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [14s/14s] OK
   Running 'test-all.R' [14s/14s]
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/ggplot2.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/ggplot2.Rcheck/00check.log'
 for details.

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/cda.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/cda.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'cda' can be installed ... [85s/85s] OK
+* checking whether package 'cda' can be installed ... [86s/86s] OK
 * checking installed package size ... NOTE
   installed size is  5.4Mb
   sub-directories of 1Mb or more:
@@ -63,5 +63,5 @@
 * checking re-building of vignette PDFs ... OK
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/cda.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/cda.Rcheck/00check.log'
 for details.

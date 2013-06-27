@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/BatchExperiments.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/BatchExperiments.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -42,10 +42,11 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... [18s/19s] OK
+* checking examples ... [18s/20s] OK
 Examples with CPU or elapsed time > 5s
                 user system elapsed
-addExperiments 9.268  0.208  10.474
+addExperiments 9.200  0.168  10.232
+getIndex       4.124  0.092   5.006
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [28s/31s] OK
-  Running 'run-all.R' [27s/31s]
+* checking tests ... [28s/32s] OK
+  Running 'run-all.R' [28s/31s]

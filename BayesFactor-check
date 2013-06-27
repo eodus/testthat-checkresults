@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/BayesFactor.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/BayesFactor.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -53,15 +53,15 @@ Package unavailable to check Rd xrefs: 'BAS'
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
 * checking installed files from 'inst/doc' ... OK
-* checking examples ... [18s/19s] OK
+* checking examples ... [18s/21s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'run-all.R'
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [30s/31s] OK
-* checking re-building of vignette PDFs ... [36s/36s] OK
+* checking running R code from vignettes ... [30s/30s] OK
+* checking re-building of vignette PDFs ... [38s/38s] OK
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/BayesFactor.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/BayesFactor.Rcheck/00check.log'
 for details.

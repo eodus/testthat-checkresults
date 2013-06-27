@@ -15,7 +15,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include" -I"/ho
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include" -I"/home/ubuntu/R-lib/reshape2/include" -I"/home/ubuntu/R-lib/scales/include" -I"/home/ubuntu/R-lib/ggplot2/include" -I"/home/ubuntu/R-lib/Formula/include"   -fpic  -O3 -pipe  -g  -c mmIplusDP.cpp -o mmIplusDP.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include" -I"/home/ubuntu/R-lib/reshape2/include" -I"/home/ubuntu/R-lib/scales/include" -I"/home/ubuntu/R-lib/ggplot2/include" -I"/home/ubuntu/R-lib/Formula/include"   -fpic  -O3 -pipe  -g  -c mmmult.cpp -o mmmult.o
 g++ -shared -o growcurves.so DPre.o ddp.o lgm.o mmC.o mmCchol.o mmCmiar.o mmCmvplusDP.o mmCplusDP.o mmI.o mmIgroup.o mmIgroupDP.o mmIplusDP.o mmmult.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/growcurves.Rcheck/growcurves/libs
+installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/growcurves.Rcheck/growcurves/libs
 ** R
 ** data
 ** inst

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/lava.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/lava.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -100,12 +100,12 @@ vars.graph: no visible global function definition for 'nodes'
 * checking data for ASCII and uncompressed saves ... OK
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
-* checking examples ... [20s/21s] OK
+* checking examples ... [21s/21s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [12s/12s] OK
+* checking tests ... [11s/11s] OK
   Running 'dependencies.R'
-  Running 'test-all.R' [11s/11s]
+  Running 'test-all.R' [10s/11s]
 NOTE: There were 2 notes.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/lava.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/lava.Rcheck/00check.log'
 for details.

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/transmission.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/transmission.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -58,5 +58,5 @@ See section 'Good practice' in '?attach'.
   Running 'testthat-package.R' [10s/10s]
 NOTE: There was 1 note.
 See
-  '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/transmission.Rcheck/00check.log'
+  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/transmission.Rcheck/00check.log'
 for details.

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran76603ca0b566/lubridate.Rcheck'
+* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/lubridate.Rcheck'
 * using R version 3.0.1 (2013-05-16)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -49,19 +49,9 @@
 * checking installed files from 'inst/doc' ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
-Last 13 lines of output:
-  
-  
-  1. Failure: format.Duration correctly displays intervals of length 0 -----------
-  dur[FALSE] does not match 'Duration\(0)'. Actual value: 
-  
-  2. Failure: format.Interval correctly displays intervals of length 0 -----------
-  int[FALSE] does not match 'Interval\(0)'. Actual value: 
-  
-  3. Failure: format.Period correctly displays intervals of length 0 -------------
-  per[FALSE] does not match 'Period\(0)'. Actual value: 
-  
-  Error: Test failures
-  Execution halted
+* checking tests ... [21s/22s] OK
+  Running 'test-all.R' [21s/22s]
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette PDFs ... OK
