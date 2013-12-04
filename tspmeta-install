@@ -3,7 +3,7 @@
 ** libs
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c fast_two_opt.c -o fast_two_opt.o
 gcc -std=gnu99 -shared -o tspmeta.so fast_two_opt.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/tspmeta.Rcheck/tspmeta/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/tspmeta.Rcheck/tspmeta/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading

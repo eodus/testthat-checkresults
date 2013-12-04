@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/cocor.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/cocor.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'cocor/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'cocor' version '0.01-4'
+* this is package 'cocor' version '1.0-0'
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
@@ -32,7 +32,7 @@ Package which this enhances but not available for checking: 'rkward'
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -45,6 +45,9 @@ Package which this enhances but not available for checking: 'rkward'
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
 * checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
@@ -54,6 +57,3 @@ checking a package with encoding  'UTF-8'  in an ASCII locale
   Running 'test.cocor.package.R'
 WARNING: There was 1 warning.
 NOTE: There was 1 note.
-See
-  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/cocor.Rcheck/00check.log'
-for details.

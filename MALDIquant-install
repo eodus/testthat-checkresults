@@ -1,13 +1,14 @@
 * installing *source* package 'MALDIquant' ...
 ** package 'MALDIquant' successfully unpacked and MD5 sums checked
 ** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c colMedians.c -o colMedians.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c init.c -o init.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c localMaxima.c -o localMaxima.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c lowerConvexHull.c -o lowerConvexHull.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c morphologicalFilters.c -o morphologicalFilters.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c snip.c -o snip.o
-gcc -std=gnu99 -shared -o MALDIquant.so init.o localMaxima.o lowerConvexHull.o morphologicalFilters.o snip.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/MALDIquant.Rcheck/MALDIquant/libs
+gcc -std=gnu99 -shared -o MALDIquant.so colMedians.o init.o localMaxima.o lowerConvexHull.o morphologicalFilters.o snip.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/MALDIquant.Rcheck/MALDIquant/libs
 ** R
 ** data
 ** demo

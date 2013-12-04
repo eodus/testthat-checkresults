@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/plyr.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/plyr.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -17,7 +17,9 @@
 * checking whether package 'plyr' can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Licenses which are templates and need '+ file LICENSE':
+  MIT
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -30,7 +32,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -51,17 +53,26 @@ l_ply: no visible binding for global variable 'd'
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [53s/55s] OK
+* checking examples ... [46s/48s] OK
 Examples with CPU or elapsed time > 5s
-           user system elapsed
-baseball 11.516  0.016  11.591
-dlply     6.156  0.012   6.165
-ddply     6.096  0.000   6.097
-liply     5.056  0.000   5.070
+          user system elapsed
+baseball 9.900  0.032   9.942
+ddply    5.600  0.000   5.599
+dlply    5.184  0.000   5.200
 * checking for unstated dependencies in tests ... OK
-* checking tests ... OK
-  Running 'test-all.R'
-NOTE: There was 1 note.
-See
-  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/plyr.Rcheck/00check.log'
-for details.
+* checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  Replace values : ....................................
+  List to data frame : ..................................................
+  Split data frame : ......
+  Split indices : .
+  Split labels : .
+  Summarise : ...
+  
+  
+  1. Failure(@test-parallel.r#7): l_ply respects .parallel -----------------------
+  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.173 seconds, which is more than 0.15
+  
+  Error: Test failures
+  Execution halted

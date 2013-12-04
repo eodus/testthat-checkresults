@@ -1,0 +1,25 @@
+mlr *  checking examples ... ERROR
+Running examples in 'mlr-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: makeFilterWrapper
+> ### Title: Fuse learner with filter method.
+> ### Aliases: makeFilterWrapper
+> 
+> ### ** Examples
+> 
+> task = makeClassifTask(data=iris, target="Species")
+> lrn = makeLearner("classif.lda")
+Loading required package: MASS
+> inner = makeResampleDesc("Holdout")
+> outer = makeResampleDesc("CV", iters = 2)
+> lrn = makeFilterWrapper(lrn, fw.perc=0.5)
+> mod = train(lrn, task)
+Loading required package: FSelector
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'FSelector'
+Error in requirePackages(learner$package, paste("learner", learner$id)) : 
+  For learner classif.lda.filtered please install the following packages: FSelector
+Calls: train -> requireLearnerPackages -> requirePackages -> stopf
+Execution halted

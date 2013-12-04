@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/gstudio.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/gstudio.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'gstudio' can be installed ... [11s/12s] OK
+* checking whether package 'gstudio' can be installed ... [11s/11s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -30,7 +30,22 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... NOTE
+'library' or 'require' calls to packages already attached by Depends:
+  'ggplot2' 'popgraph'
+  Please remove these calls from your code.
+Namespace in Imports field not imported from: 'igraph'
+  All declared Imports should be used.
+Package in Depends field not imported from: 'popgraph'
+  These packages needs to imported from for the case when
+  this namespace is loaded but not attached.
+Missing or unexported object: 'base::plot.default'
+':::' calls which should be '::':
+  'grid:::gpar' 'popgraph:::population_graph' 'popgraph:::to_matrix'
+  'raster:::rasterToPoints'
+  See the note in ?`:::` about the use of this operator.
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -50,9 +65,10 @@
 * checking installed files from 'inst/doc' ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [14s/16s] OK
-  Running 'run-testthat-gstudio.R' [13s/15s]
+* checking tests ... [12s/13s] OK
+  Running 'run-testthat-gstudio.R' [11s/12s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
 * checking running R code from vignettes ... OK
-* checking re-building of vignette PDFs ... OK
+* checking re-building of vignette outputs ... OK
+NOTE: There was 1 note.

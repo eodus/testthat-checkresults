@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/growcurves.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/growcurves.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -14,11 +14,11 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'growcurves' can be installed ... [233s/232s] OK
+* checking whether package 'growcurves' can be installed ... [205s/205s] OK
 * checking installed package size ... NOTE
-  installed size is 15.5Mb
+  installed size is 15.7Mb
   sub-directories of 1Mb or more:
-    libs  15.0Mb
+    libs  15.1Mb
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
@@ -33,7 +33,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -51,14 +51,24 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK
 * checking line endings in Makefiles ... OK
-* checking for portable compilation flags in Makevars ... OK
+* checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [76s/76s] OK
-  Running 'run-all.R' [76s/76s]
-NOTE: There was 1 note.
-See
-  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/growcurves.Rcheck/00check.log'
-for details.
+* checking tests ... ERROR
+Running the tests in 'tests/run-all.R' failed.
+Last 13 lines of output:
+  
+  6. Failure(@test-dpgrowmm.R#74): mmigrp option of dpgrowmm returns expect objects 
+  names(srm$X) does not match 'time'. Actual value: ""
+  
+  7. Failure(@test-dpgrowmm.R#107): mmi option of dpgrowmm returns expect objects 
+  names(srm$X) does not match 'time'. Actual value: ""
+  
+  8. Failure(@test-dpgrowmult.R#48): dpgrowmult with multiple MM terms returns expected objects 
+  names(srm$X) does not match 'time'. Actual value: ""
+  
+  Error: Test failures
+  In addition: There were 50 or more warnings (use warnings() to see the first 50)
+  Execution halted

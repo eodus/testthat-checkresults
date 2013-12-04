@@ -5,7 +5,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"  `/usr
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"  `/usr/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"` -fpic  -O3 -pipe  -g  -c sim.cpp -o sim.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"  `/usr/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"` -fpic  -O3 -pipe  -g  -c sim_ward.cpp -o sim_ward.o
 g++ -shared -o transmission.so RcppInfection.o sim.o sim_ward.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/transmission.Rcheck/transmission/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/transmission.Rcheck/transmission/libs
 ** R
 ** inst
 ** preparing package for lazy loading

@@ -8,6 +8,5 @@
 *** installing help indices
 ** building package indices
 ** installing vignettes
-   'argparse.Rnw' 
 ** testing if installed package can be loaded
 * DONE (argparse)

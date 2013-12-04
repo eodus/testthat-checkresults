@@ -10,8 +10,5 @@ Creating a generic function for 'print' from package 'base' in package 'NlsyLink
 *** installing help indices
 ** building package indices
 ** installing vignettes
-   'Faq.Rnw' 
-   'NlsInvestigator.Rnw' 
-   'NlsyAce.Rnw' 
 ** testing if installed package can be loaded
 * DONE (NlsyLinks)

@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/CHNOSZ.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/CHNOSZ.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'CHNOSZ/DESCRIPTION' ... OK
-* this is package 'CHNOSZ' version '1.0.0'
+* this is package 'CHNOSZ' version '1.0.1'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -29,7 +29,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -51,10 +51,11 @@
 * checking compiled code ... OK
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
-* checking examples ... [51s/53s] OK
+* checking files in 'vignettes' ... OK
+* checking examples ... [40s/41s] OK
 Examples with CPU or elapsed time > 5s
-               user system elapsed
-protein.info 12.249  0.012  12.549
+             user system elapsed
+protein.info 8.58  0.016   8.716
 * checking for unstated dependencies in tests ... OK
 * checking tests ... ERROR
 Running the tests in 'tests/test-all.R' failed.
@@ -62,11 +63,11 @@ Last 13 lines of output:
   2. Error: minimal usage of mod.obigt() creates usable data entries -------------
   'test' is not a simple chemical formula
   1: expect_warning(mod.obigt("test", date = today()), "please supply a valid chemical formula") at test-thermo.R:29
-  2: expect_that(object, gives_warning(regexp, ...), info = info, label = label) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:455
-  3: condition(object) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expect-that.r:43
-  4: evaluate_promise(expr) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:434
-  5: with_sink(temp, withCallingHandlers(withVisible(code), warning = wHandler, message = mHandler)) at /mnt/tmp/RtmpEhoweR/testthat-master/R/evaluate-promise.r:42
-  6: withCallingHandlers(withVisible(code), warning = wHandler, message = mHandler) at /mnt/tmp/RtmpEhoweR/testthat-master/R/evaluate-promise.r:65
+  2: expect_that(object, gives_warning(regexp, ...), info = info, label = label)
+  3: condition(object)
+  4: evaluate_promise(expr)
+  5: with_sink(temp, withCallingHandlers(withVisible(code), warning = wHandler, message = mHandler))
+  6: withCallingHandlers(withVisible(code), warning = wHandler, message = mHandler)
   7: withVisible(code)
   8: mod.obigt("test", date = today())
   

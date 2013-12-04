@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/rbundler.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/rbundler.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'rbundler/DESCRIPTION' ... OK
-* this is package 'rbundler' version '0.2.1'
+* this is package 'rbundler' version '0.3.4'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -29,7 +29,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -47,16 +47,16 @@
 * checking tests ... ERROR
 Running the tests in 'tests/test-all.R' failed.
 Last 13 lines of output:
-  Type 'contributors()' for more information and
-  'citation()' on how to cite R or R packages in publications.
+  1: bundle_and_validate(overwrite = FALSE) at test-bundle.r:67
+  2: bundle(pkg = package$path, bundle_path = lib, overwrite = overwrite) at test-bundle.r:21
+  3: apply(depends, 1, FUN = function(d) {
+         install_version(d["name"], d["version"], d["compare"], dependencies = dependencies)
+     })
+  4: FUN(newX[, i], ...)
+  5: install_version(d["name"], d["version"], d["compare"], dependencies = dependencies)
+  6: validate_installed_package(package, version, compare)
+  7: stop(sprintf("Installed package [%s] is of the wrong version. Required: [%s]. Actual: [%s]", 
+         package, version, installed_package$Version))
   
-  Type 'demo()' for some demos, 'help()' for on-line help, or
-  'help.start()' for an HTML browser interface to help.
-  Type 'q()' to quit R.
-  
-  > library(testthat)
-  > library(devtools)
-  > 
-  > test_package("rbundler")
-  Error: No tests found for rbundler
+  Error: Test failures
   Execution halted

@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/rspear.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/rspear.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'rspear/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'rspear' version '0.0.1'
+* this is package 'rspear' version '0.1-1'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -30,7 +30,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -48,6 +48,7 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
@@ -55,4 +56,33 @@
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
 * checking running R code from vignettes ... OK
-* checking re-building of vignette PDFs ... OK
+* checking re-building of vignette outputs ... NOTE
+Error in re-building vignettes:
+  ...
+Loading required package: rspear
+Loading required package: reshape2
+trying URL 'http://www.systemecology.eu/rspear/traits.csv'
+Content type 'text/csv' length 127504 bytes (124 Kb)
+opened URL
+==================================================
+downloaded 124 Kb
+
+Warning in spear(spear_example, taxa = names(spear_example)[1], abundance = names(spear_example)[2],  :
+  There were unmatched species:
+xxxxxxxxx
+Set SPEAR to 0.
+Warning in spear(spear_example, taxa = names(spear_example)[1], abundance = names(spear_example)[2],  :
+  Non-direct taxon matches!
+Check trait table if match is appropiate!!
+Error in texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet,  : 
+  Running 'texi2dvi' on 'rspear.tex' failed.
+LaTeX errors:
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+Calls: buildVignettes -> texi2pdf -> texi2dvi
+Execution halted
+
+NOTE: There was 1 note.

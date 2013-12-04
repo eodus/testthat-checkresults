@@ -1,0 +1,11 @@
+transmission *  checking whether the namespace can be loaded with stated dependencies ... WARNING
+Error: .onLoad failed in loadNamespace() for 'transmission', details:
+  call: NULL
+  error: "package:methods" %in% search() is not TRUE
+Execution halted
+
+A namespace must be able to be loaded with just the base namespace
+loaded: otherwise if the namespace gets loaded by a saved object, the
+session will be unable to start.
+
+Probably some imports need to be declared in the NAMESPACE file.

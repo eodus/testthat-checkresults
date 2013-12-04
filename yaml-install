@@ -12,7 +12,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c scanner.c -o scanner.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c writer.c -o writer.o
 gcc -std=gnu99 -shared -o yaml.so api.o dumper.o emitter.o implicit.o loader.o parser.o r-ext.o reader.o scanner.o writer.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/yaml.Rcheck/yaml/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/yaml.Rcheck/yaml/libs
 ** R
 ** inst
 ** preparing package for lazy loading

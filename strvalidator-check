@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/strvalidator.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/strvalidator.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'strvalidator/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'strvalidator' version '0.2.0'
+* this is package 'strvalidator' version '0.3.0'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -17,7 +17,10 @@
 * checking whether package 'strvalidator' can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Packages listed in more than one of Depends, Imports, Suggests, Enhances:
+  'ggplot2' 'gWidgets' 'RGtk2'
+A package should be listed in only one of these fields.
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -30,7 +33,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -47,3 +50,7 @@
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... [16s/16s] OK
+  Running 'test-All.R' [15s/15s]
+NOTE: There was 1 note.

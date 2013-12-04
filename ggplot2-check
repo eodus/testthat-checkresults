@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/ggplot2.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/ggplot2.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'ggplot2' can be installed ... [11s/12s] OK
+* checking whether package 'ggplot2' can be installed ... [10s/11s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -30,7 +30,14 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... NOTE
+Package in Depends field not imported from: 'methods'
+  These packages needs to imported from for the case when
+  this namespace is loaded but not attached.
+':::' call which should be '::': 'plyr:::split_indices'
+  See the note in ?`:::` about the use of this operator.
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -79,22 +86,16 @@ summarise_by_x: no visible binding for global variable 'x'
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [179s/186s] OK
+* checking examples ... [162s/163s] OK
 Examples with CPU or elapsed time > 5s
-                         user system elapsed
-guide_colourbar         8.348  0.024   8.836
-geom_line               7.432  0.008   7.649
-geom_dotplot            7.388  0.016   7.636
-scale_brewer            6.188  0.008   6.211
-coord_map               6.173  0.016   6.195
-scale_date              6.008  0.000   6.009
-aes_linetype_size_shape 5.256  0.020   5.811
-coord_cartesian         4.864  0.008   5.359
-fortify.lm              4.764  0.016   5.220
+                 user system elapsed
+guide_colourbar 6.656  0.028   6.716
+geom_line       6.336  0.024   6.393
+geom_dotplot    6.137  0.028   6.213
+scale_date      5.556  0.012   5.603
+coord_map       5.492  0.064   5.557
+scale_brewer    5.469  0.008   5.476
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [14s/14s] OK
-  Running 'test-all.R' [14s/14s]
-NOTE: There was 1 note.
-See
-  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/ggplot2.Rcheck/00check.log'
-for details.
+* checking tests ... [19s/20s] OK
+  Running 'test-all.R' [19s/19s]
+NOTE: There were 2 notes.

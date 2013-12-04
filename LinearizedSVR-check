@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/LinearizedSVR.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/LinearizedSVR.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -21,7 +21,8 @@ structure' in the 'Writing R Extensions' manual.
 * checking whether package 'LinearizedSVR' can be installed ... [15s/15s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Deprecated license: BSD
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -34,7 +35,7 @@ structure' in the 'Writing R Extensions' manual.
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -51,7 +52,4 @@ structure' in the 'Writing R Extensions' manual.
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'main.R'
-NOTE: There was 1 note.
-See
-  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/LinearizedSVR.Rcheck/00check.log'
-for details.
+NOTE: There were 2 notes.

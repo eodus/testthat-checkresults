@@ -5,4 +5,4 @@
 ** preparing package for lazy loading
 Error : package 'rJava' was built before R 3.0.0: please re-install it
 ERROR: lazy loading failed for package 'transnet'
-* removing '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/transnet.Rcheck/transnet'
+* removing '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/transnet.Rcheck/transnet'

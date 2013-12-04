@@ -16,7 +16,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpi
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -O3 -pipe  -g  -c stringcolumn.cpp -o stringcolumn.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -O3 -pipe  -g  -c textutils.cpp -o textutils.o
 g++ -shared -o LaF.so LaF.o column.o conversion.o csvreader.o doublecolumn.o factorcolumn.o file.o fwfreader.o intcolumn.o reader.o readermanager.o stats.o stringcolumn.o textutils.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/LaF.Rcheck/LaF/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/LaF.Rcheck/LaF/libs
 ** R
 ** inst
 ** preparing package for lazy loading

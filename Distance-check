@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/Distance.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/Distance.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'Distance/DESCRIPTION' ... OK
-* this is package 'Distance' version '0.7.1'
+* this is package 'Distance' version '0.7.3'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'Distance' can be installed ... OK
+* checking whether package 'Distance' can be installed ... [10s/10s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -29,7 +29,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -42,10 +42,10 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... [14s/14s] OK
+* checking examples ... [13s/13s] OK
 Examples with CPU or elapsed time > 5s
-   user system elapsed
-ds 9.04  0.064   9.531
+    user system elapsed
+ds 8.364  0.152   8.769
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'run-all.R'

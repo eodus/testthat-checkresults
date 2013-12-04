@@ -1,13 +1,14 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/devtools.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/devtools.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'devtools/DESCRIPTION' ... OK
-* this is package 'devtools' version '1.2'
+* this is package 'devtools' version '1.4.1'
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Package suggested but not available for checking: 'BiocInstaller'
+Packages suggested but not available for checking:
+  'BiocInstaller' 'rstudio'
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
@@ -30,13 +31,15 @@ Package suggested but not available for checking: 'BiocInstaller'
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
 check_cran: no visible global function definition for
   'biocinstallRepos'
+document_roxygen3: possible error in roxygenise(pkg$path, roclets =
+  roclets, load_code = pkg_env): unused argument (load_code = pkg_env)
 
 Found the following calls to attach():
 File 'devtools/R/package-env.r':
@@ -56,19 +59,7 @@ See section 'Good practice' in '?attach'.
 * checking compiled code ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
-Last 13 lines of output:
-  Type 'contributors()' for more information and
-  'citation()' on how to cite R or R packages in publications.
-  
-  Type 'demo()' for some demos, 'help()' for on-line help, or
-  'help.start()' for an HTML browser interface to help.
-  Type 'q()' to quit R.
-  
-  > library(testthat)
-  > library(devtools)
-  > 
-  > test_package("devtools")
-  Error: No tests found for devtools
-  Execution halted
+* checking tests ... [31s/39s] OK
+  Running 'has-devel.R'
+  Running 'test-that.R' [30s/37s]
+NOTE: There were 2 notes.

@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/httr.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/httr.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -17,7 +17,9 @@
 * checking whether package 'httr' can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Licenses which are templates and need '+ file LICENSE':
+  MIT
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -30,7 +32,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -44,38 +46,21 @@
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
 * checking R/sysdata.rda ... OK
-* checking examples ... ERROR
-Running examples in 'httr-Ex.R' failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: POST
-> ### Title: POST file to a server.
-> ### Aliases: POST
-> 
-> ### ** Examples
-> 
-> b <- new_bin()
-Loading required package: rjson
-> POST(b)
-Response [http://requestb.in/1bvzced1]
-  Status: 200
-  Content-type: text/html; charset=utf-8
-ok
- 
-> POST(b, body = "A simple text string")
-Response [http://requestb.in/1bvzced1]
-  Status: 200
-  Content-type: text/html; charset=utf-8
-ok
- 
-> POST(b, body = list(a = 1, b = 2, c = 3))
-Response [http://requestb.in/1bvzced1]
-  Status: 200
-  Content-type: text/html; charset=utf-8
-ok
- 
-> POST(b, body = list(a = 1, file = upload_file(system.file("CITATION"))))
-Error in function (type, msg, asError = TRUE)  : Empty reply from server
-Calls: POST ... make_request -> .postForm -> .Call -> <Anonymous> -> fun
-Execution halted
+* checking examples ... [4s/16s] OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  
+  1. Error: status converted to errors -------------------------------------------
+  length(regexp) == 1 is not TRUE
+  1: expect_error(stop_for_status(s300), c("300", "redirect")) at test-request.r:19
+  2: expect_that(object, throws_error(regexp, ...), info = info, label = label)
+  3: condition(object)
+  4: matches(regexp, ...)
+  5: stopifnot(is.character(regexp), length(regexp) == 1)
+  6: stop(sprintf(ngettext(length(r), "%s is not TRUE", "%s are not all TRUE"), ch), call. = FALSE, 
+         domain = NA)
+  
+  Error: Test failures
+  Execution halted

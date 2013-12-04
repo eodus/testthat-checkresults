@@ -9,7 +9,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpi
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -O3 -pipe  -g  -c str_rev.c -o str_rev.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -O3 -pipe  -g  -c str_slice.c -o str_slice.o
 g++ -shared -o Kmisc.so RcppExports.o factor_to_char.o in_interval.o split_runs.o stack_list.o str_rev.o str_slice.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/Kmisc.Rcheck/Kmisc/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/Kmisc.Rcheck/Kmisc/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

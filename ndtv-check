@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/ndtv.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/ndtv.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'ndtv/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'ndtv' version '0.2'
+* this is package 'ndtv' version '0.3'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -30,7 +30,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -48,17 +48,17 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
-* checking examples ... [15s/16s] OK
+* checking files in 'vignettes' ... OK
+* checking examples ... OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-render.animation 9.188  0.108   9.963
-msm.sim          4.864  0.056   5.125
+render.animation 5.236  0.076   5.451
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [35s/36s] OK
+* checking tests ... [28s/28s] OK
   Running 'layout_tests.R'
-  Running 'networkAnimationTest.R' [23s/24s]
-  Running 'timeline_test.R' [11s/11s]
+  Running 'networkAnimationTest.R' [17s/17s]
+  Running 'timeline_test.R' [10s/10s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [166s/171s] OK
-* checking re-building of vignette PDFs ... [122s/123s] OK
+* checking running R code from vignettes ... [222s/224s] OK
+* checking re-building of vignette outputs ... [166s/167s] OK

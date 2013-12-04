@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/mrds.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/mrds.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'mrds/DESCRIPTION' ... OK
-* this is package 'mrds' version '2.1.2'
+* this is package 'mrds' version '2.1.4'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'mrds' can be installed ... [13s/13s] OK
+* checking whether package 'mrds' can be installed ... [12s/12s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -29,7 +29,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -47,5 +47,5 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [94s/94s] OK
-  Running 'run-all.R' [93s/94s]
+* checking tests ... [104s/104s] OK
+  Running 'run-all.R' [104s/104s]

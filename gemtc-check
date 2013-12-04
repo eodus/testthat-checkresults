@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/gemtc.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/gemtc.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'gemtc/DESCRIPTION' ... OK
-* this is package 'gemtc' version '0.2'
+* this is package 'gemtc' version '0.5-2'
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
 Package suggested but not available for checking: 'BRugs'
@@ -30,7 +30,7 @@ Package suggested but not available for checking: 'BRugs'
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -46,14 +46,11 @@ mtc.sample: no visible global function definition for 'BRugsFit'
 * checking for unstated dependencies in examples ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK
 * checking line endings in Makefiles ... OK
-* checking for portable compilation flags in Makevars ... OK
+* checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [14s/15s] OK
+* checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [18s/19s] OK
-  Running 'test.R' [18s/19s]
+* checking tests ... [15s/15s] OK
+  Running 'test.R' [14s/15s]
 NOTE: There were 2 notes.
-See
-  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/gemtc.Rcheck/00check.log'
-for details.

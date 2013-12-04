@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/pcrsim.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/pcrsim.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -17,7 +17,10 @@
 * checking whether package 'pcrsim' can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Packages listed in more than one of Depends, Imports, Suggests, Enhances:
+  'ggplot2' 'data.table' 'gWidgets' 'RGtk2' 'strvalidator'
+A package should be listed in only one of these fields.
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -30,7 +33,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -50,3 +53,4 @@
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test-All.R'
+NOTE: There was 1 note.

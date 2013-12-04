@@ -5,8 +5,9 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include" -I"/ho
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c elastic_net.cpp -o elastic_net.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c first_order.cpp -o first_order.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c quadratic.cpp -o quadratic.o
-g++ -shared -o quadrupen.so bounded_reg.o elastic_net.o first_order.o quadratic.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/quadrupen.Rcheck/quadrupen/libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include" -I"/home/ubuntu/R-lib/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c utils.cpp -o utils.o
+g++ -shared -o quadrupen.so bounded_reg.o elastic_net.o first_order.o quadratic.o utils.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/quadrupen.Rcheck/quadrupen/libs
 ** R
 ** demo
 ** inst

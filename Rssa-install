@@ -33,16 +33,10 @@ config.status: creating src/config.h
 ** libs
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c extmat.c -o extmat.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c hankel.c -o hankel.o
-hankel.c: In function 'initialize_circulant':
-hankel.c:319:3: warning: implicit declaration of function 'fft_factor' [-Wimplicit-function-declaration]
-hankel.c:335:3: warning: implicit declaration of function 'fft_work' [-Wimplicit-function-declaration]
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c hbhankel.c -o hbhankel.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c toeplitz.c -o toeplitz.o
-toeplitz.c: In function 'initialize_circulant':
-toeplitz.c:227:3: warning: implicit declaration of function 'fft_factor' [-Wimplicit-function-declaration]
-toeplitz.c:242:3: warning: implicit declaration of function 'fft_work' [-Wimplicit-function-declaration]
 gcc -std=gnu99 -shared -o Rssa.so extmat.o hankel.o hbhankel.o toeplitz.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/Rssa.Rcheck/Rssa/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/Rssa.Rcheck/Rssa/libs
 ** R
 ** data
 ** inst
@@ -51,10 +45,4 @@ installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/Rssa.Rcheck/Rssa/libs
 *** installing help indices
 ** building package indices
 ** testing if installed package can be loaded
-Error in dyn.load(file, DLLpath = DLLpath, ...) : 
-  unable to load shared object '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/Rssa.Rcheck/Rssa/libs/Rssa.so':
-  /mnt/tmp/RtmpEhoweR/check_cran766072685e35/Rssa.Rcheck/Rssa/libs/Rssa.so: undefined symbol: fft_factor
-Error: loading failed
-Execution halted
-ERROR: loading failed
-* removing '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/Rssa.Rcheck/Rssa'
+* DONE (Rssa)

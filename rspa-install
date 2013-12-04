@@ -12,7 +12,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c sc_
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c spa.c -o spa.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c sparseConstraints.c -o sparseConstraints.o
 gcc -std=gnu99 -shared -o rspa.so R_all_finite.o R_dc_spa.o R_sc_arith.o R_spa.o R_sparseConstraints.o dc_spa.o maxdist.o sc_arith.o spa.o sparseConstraints.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/rspa.Rcheck/rspa/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/rspa.Rcheck/rspa/libs
 ** R
 ** inst
 ** preparing package for lazy loading
@@ -20,6 +20,5 @@ installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/rspa.Rcheck/rspa/libs
 *** installing help indices
 ** building package indices
 ** installing vignettes
-   'getting_started.Rnw' 
 ** testing if installed package can be loaded
 * DONE (rspa)

@@ -4,11 +4,11 @@ Last 13 lines of output:
   2. Error: minimal usage of mod.obigt() creates usable data entries -------------
   'test' is not a simple chemical formula
   1: expect_warning(mod.obigt("test", date = today()), "please supply a valid chemical formula") at test-thermo.R:29
-  2: expect_that(object, gives_warning(regexp, ...), info = info, label = label) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:455
-  3: condition(object) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expect-that.r:43
-  4: evaluate_promise(expr) at /mnt/tmp/RtmpEhoweR/testthat-master/R/expectations.r:434
-  5: with_sink(temp, withCallingHandlers(withVisible(code), warning = wHandler, message = mHandler)) at /mnt/tmp/RtmpEhoweR/testthat-master/R/evaluate-promise.r:42
-  6: withCallingHandlers(withVisible(code), warning = wHandler, message = mHandler) at /mnt/tmp/RtmpEhoweR/testthat-master/R/evaluate-promise.r:65
+  2: expect_that(object, gives_warning(regexp, ...), info = info, label = label)
+  3: condition(object)
+  4: evaluate_promise(expr)
+  5: with_sink(temp, withCallingHandlers(withVisible(code), warning = wHandler, message = mHandler))
+  6: withCallingHandlers(withVisible(code), warning = wHandler, message = mHandler)
   7: withVisible(code)
   8: mod.obigt("test", date = today())
   

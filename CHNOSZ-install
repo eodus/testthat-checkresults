@@ -3,7 +3,7 @@
 ** libs
 gfortran   -fpic  -O3 -pipe  -g  -c H2O92D.f -o H2O92D.o
 gcc -std=gnu99 -shared -o CHNOSZ.so H2O92D.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/CHNOSZ.Rcheck/CHNOSZ/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/CHNOSZ.Rcheck/CHNOSZ/libs
 ** R
 ** data
 ** demo

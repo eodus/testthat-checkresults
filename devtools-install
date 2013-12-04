@@ -3,7 +3,7 @@
 ** libs
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c devtools.c -o devtools.o
 gcc -std=gnu99 -shared -o devtools.so devtools.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/devtools.Rcheck/devtools/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/devtools.Rcheck/devtools/libs
 ** R
 ** inst
 ** preparing package for lazy loading

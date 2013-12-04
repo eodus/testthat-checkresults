@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/SparseGrid.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/SparseGrid.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'SparseGrid/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'SparseGrid' version '0.8.1'
+* this is package 'SparseGrid' version '0.8.2'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -30,7 +30,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -45,6 +45,7 @@
 * checking for unstated dependencies in examples ... OK
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
@@ -52,4 +53,4 @@
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
 * checking running R code from vignettes ... [48s/48s] OK
-* checking re-building of vignette PDFs ... [30s/30s] OK
+* checking re-building of vignette outputs ... [33s/34s] OK

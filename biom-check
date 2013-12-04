@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/biom.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/biom.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'biom/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'biom' version '0.3.9'
+* this is package 'biom' version '0.3.10'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'biom' can be installed ... [10s/10s] OK
+* checking whether package 'biom' can be installed ... [10s/11s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -30,7 +30,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -54,10 +54,10 @@ Last 13 lines of output:
   > test_package("biom")
   ........................12......................................................................................
   
-  1. Failure: show method output tests -------------------------------------------
+  1. Failure(@test-IO.R#69): show method output tests ----------------------------
   x1 does not match 'biom object. type:'. Actual value: "biom object. \ntype: OTU table \nmatrix_type: dense \n5 rows and 6 columns "
   
-  2. Failure: show method output tests -------------------------------------------
+  2. Failure(@test-IO.R#70): show method output tests ----------------------------
   x4 does not match 'biom object. type:'. Actual value: "biom object. \ntype: OTU table \nmatrix_type: sparse \n5 rows and 6 columns "
   
   Error: Test failures

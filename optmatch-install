@@ -1,17 +1,22 @@
 * installing *source* package 'optmatch' ...
 ** package 'optmatch' successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c mahalanobisHelper.c -o mahalanobisHelper.o
-gfortran   -fpic  -O3 -pipe  -g  -c relax4s.f -o relax4s.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c cuseful.c -o cuseful.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c distances.c -o distances.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c map.c -o map.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c register.c -o register.o
+gfortran  --fixed-line-length-132 -fpic  -O3 -pipe  -g  -c relax4s.f -o relax4s.o
+gfortran  --fixed-line-length-132 -fpic  -O3 -pipe  -g  -c relax4sold.f -o relax4sold.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c subsetInfSparseMatrix.c -o subsetInfSparseMatrix.o
-gcc -std=gnu99 -shared -o optmatch.so mahalanobisHelper.o relax4s.o subsetInfSparseMatrix.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/optmatch.Rcheck/optmatch/libs
+gcc -std=gnu99 -shared -o optmatch.so cuseful.o distances.o map.o register.o relax4s.o relax4sold.o subsetInfSparseMatrix.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/optmatch.Rcheck/optmatch/libs
 ** R
 ** data
 ** demo
 ** inst
 ** preparing package for lazy loading
-in method for 'match_on' with signature '"bigglm"': no definition for class "bigglm"
+Warning in FUN(X[[1L]], ...) :
+  Created a package name, '2013-12-04 19:21:05', when none found
 ** help
 *** installing help indices
 ** building package indices

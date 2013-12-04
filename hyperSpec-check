@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/hyperSpec.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/hyperSpec.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'hyperSpec' can be installed ... [11s/12s] OK
+* checking whether package 'hyperSpec' can be installed ... [10s/10s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -30,7 +30,14 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... NOTE
+'library' or 'require' call to 'grid' which was already attached by Depends.
+  Please remove these calls from your code.
+Package in Depends field not imported from: 'mvtnorm'
+  These packages needs to imported from for the case when
+  this namespace is loaded but not attached.
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -50,19 +57,17 @@ Warning: local assignments to syntactic functions: ~
 * checking R/sysdata.rda ... OK
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
-* checking examples ... [63s/64s] OK
+* checking files in 'vignettes' ... OK
+* checking examples ... [52s/52s] OK
 Examples with CPU or elapsed time > 5s
-            user system elapsed
-levelplot 11.929  0.032  12.419
-chondro    9.673  0.012   9.692
+           user system elapsed
+levelplot 9.569  0.088   9.704
+chondro   7.637  0.024   7.666
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'unittests.R'
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [64s/65s] OK
-* checking re-building of vignette PDFs ... [57s/59s] OK
-NOTE: There was 1 note.
-See
-  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/hyperSpec.Rcheck/00check.log'
-for details.
+* checking running R code from vignettes ... [66s/67s] OK
+* checking re-building of vignette outputs ... [86s/90s] OK
+NOTE: There were 2 notes.

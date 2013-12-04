@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/data.table.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/data.table.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'data.table/DESCRIPTION' ... OK
-* this is package 'data.table' version '1.8.8'
+* this is package 'data.table' version '1.8.10'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'data.table' can be installed ... [16s/16s] OK
+* checking whether package 'data.table' can be installed ... [14s/15s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -29,7 +29,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -44,19 +44,27 @@
 * checking for unstated dependencies in examples ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK
 * checking line endings in Makefiles ... OK
-* checking for portable compilation flags in Makevars ... OK
+* checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [72s/75s] OK
-  Running 'autoprint.R'
-  Comparing 'autoprint.Rout' to 'autoprint.Rout.save' ... OK
-  Running 'test-all.R'
-  Running 'tests.R' [69s/71s]
-* checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [62s/63s] OK
-* checking re-building of vignette PDFs ... [60s/60s] OK
+* checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > library(data.table)
+  > 
+  > test_package("data.table")
+  S4 Compatability : Error in assign(mname, def, where) : 
+    cannot add bindings to a locked environment
+  Calls: test_package ... eval -> eval -> setClass -> assignClassDef -> assign
+  Execution halted

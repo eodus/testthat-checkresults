@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/tourr.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/tourr.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -18,7 +18,9 @@ Package suggested but not available for checking: 'rggobi'
 * checking whether package 'tourr' can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Licenses which are templates and need '+ file LICENSE':
+  MIT
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -31,7 +33,7 @@ Package suggested but not available for checking: 'rggobi'
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -62,16 +64,11 @@ range_dist: no visible global function definition for 'xy_limits'
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [32s/36s] OK
+* checking examples ... [26s/30s] OK
 Examples with CPU or elapsed time > 5s
-              user system elapsed
-save_history 5.628  0.020   6.029
-path_dist    5.349  0.016   5.367
-paths_index  5.092  0.032   5.207
+           user system elapsed
+path_dist 5.089  0.044   5.153
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test-all.R'
-NOTE: There were 2 notes.
-See
-  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/tourr.Rcheck/00check.log'
-for details.
+NOTE: There were 3 notes.

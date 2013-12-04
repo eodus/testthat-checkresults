@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/fanovaGraph.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/fanovaGraph.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'fanovaGraph/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'fanovaGraph' version '1.4'
+* this is package 'fanovaGraph' version '1.4.4'
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
 Package suggested but not available for checking: 'manipulate'
@@ -31,19 +31,11 @@ Package suggested but not available for checking: 'manipulate'
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... NOTE
-Found the following possibly unsafe calls:
-File 'fanovaGraph/R/modify.igraph.R':
-  unlockBinding(sym = ".igraph.shapes", env = asNamespace("igraph0"))
-  unlockBinding(sym = "i.default.values", env = asNamespace("igraph0"))
-
-plotManipulate: no visible global function definition for 'manipulate'
-plotManipulate: no visible binding for global variable 'delta'
-plotManipulate: no visible global function definition for 'slider'
+* checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd cross-references ... OK
@@ -52,15 +44,15 @@ plotManipulate: no visible global function definition for 'slider'
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... [28s/28s] OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... [23s/23s] OK
 Examples with CPU or elapsed time > 5s
-                  user system elapsed
-kmAdditive      10.788  0.024  10.887
-predictAdditive 10.721  0.000  10.724
+                 user system elapsed
+predictAdditive 9.137  0.000   9.402
+kmAdditive      8.856  0.056   9.015
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [25s/26s] OK
-  Running 'run-all.R' [25s/25s]
-NOTE: There were 2 notes.
-See
-  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/fanovaGraph.Rcheck/00check.log'
-for details.
+* checking tests ... [22s/22s] OK
+  Running 'run-all.R' [21s/21s]
+NOTE: There was 1 note.

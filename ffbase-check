@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/ffbase.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/ffbase.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'ffbase/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'ffbase' version '0.8'
+* this is package 'ffbase' version '0.10.1'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -30,7 +30,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -47,11 +47,11 @@
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [34s/35s] OK
+* checking examples ... [32s/32s] OK
 Examples with CPU or elapsed time > 5s
              user system elapsed
-merge.ffdf 17.945  0.232  18.454
-ffrep.int   4.764  0.692   5.729
+merge.ffdf 15.477  0.384  16.170
+ffrep.int   4.228  1.816   6.205
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test_all.R'

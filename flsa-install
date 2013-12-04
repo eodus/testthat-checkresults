@@ -13,7 +13,7 @@ g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c flsaBackwards.
 g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c helperFuncsSEXP.cc -o helperFuncsSEXP.o
 g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c init.cc -o init.o
 g++ -shared -o flsa.so FLSA.o FLSAGeneral.o FLSAGeneralMain.o GeneralFunctions.o Groups.o MaxFlowGraph.o PenaltyGraph.o Scheduler.o flsaBackwards.o helperFuncsSEXP.o init.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/flsa.Rcheck/flsa/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/flsa.Rcheck/flsa/libs
 ** R
 ** inst
 ** preparing package for lazy loading

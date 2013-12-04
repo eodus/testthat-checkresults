@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/mets.Rcheck'
-* using R version 3.0.1 (2013-05-16)
+* using log directory '/mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/mets.Rcheck'
+* using R version 3.0.2 (2013-09-25)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'mets/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'mets' version '0.2.3'
+* this is package 'mets' version '0.2.5'
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
 Package which this enhances but not available for checking: 'alr'
@@ -15,11 +15,11 @@ Package which this enhances but not available for checking: 'alr'
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'mets' can be installed ... [157s/157s] OK
+* checking whether package 'mets' can be installed ... [133s/132s] OK
 * checking installed package size ... NOTE
-  installed size is 10.0Mb
+  installed size is 10.8Mb
   sub-directories of 1Mb or more:
-    libs   8.4Mb
+    libs   8.5Mb
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
@@ -34,7 +34,7 @@ Package which this enhances but not available for checking: 'alr'
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking for unstated dependencies in R code ... OK
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -52,14 +52,15 @@ Package which this enhances but not available for checking: 'alr'
 * checking data for ASCII and uncompressed saves ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK
 * checking line endings in Makefiles ... OK
-* checking for portable compilation flags in Makevars ... OK
+* checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [24s/24s] OK
+* checking examples ... [35s/35s] OK
+Examples with CPU or elapsed time > 5s
+               user system elapsed
+twinlm        7.061  0.012   7.112
+casewise.test 5.065  0.044   5.123
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test-all.R'
 NOTE: There were 2 notes.
-See
-  '/mnt/tmp/RtmpEhoweR/check_cran766072685e35/mets.Rcheck/00check.log'
-for details.

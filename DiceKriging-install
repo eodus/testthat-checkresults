@@ -4,7 +4,7 @@
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c CovFuns.c -o CovFuns.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Scaling.c -o Scaling.o
 gcc -std=gnu99 -shared -o DiceKriging.so CovFuns.o Scaling.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEhoweR/check_cran766072685e35/DiceKriging.Rcheck/DiceKriging/libs
+installing to /mnt/tmp/RtmpGUXW4k/check_cran247c2eb1fbaa/DiceKriging.Rcheck/DiceKriging/libs
 ** R
 ** inst
 ** preparing package for lazy loading
